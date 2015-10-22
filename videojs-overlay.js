@@ -43,18 +43,16 @@
       el.innerHTML = content;
     //} else {
     //  el.appendChild(content);
-      
-    // add the overlay to the player
-    player.el().appendChild(el);
-    //}
-     el.onmousedown = function()
+      el.onmousedown = function()
       {
         player.pause();
        el.className = 'vjs-overlay-center';
           player.el().appendChild(el);
       }
-
-
+    // add the overlay to the player
+    player.el().appendChild(el);
+    //}
+     
     
   };
   hideOverlay = function(player, settings, overlay) {
