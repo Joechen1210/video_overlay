@@ -33,16 +33,21 @@
     overlay.el = el;
 
     // if an alignment was specified, add the appropriate class
-    if (align) {
-      el.className += ' vjs-overlay-' + align;
-    }
+    //if (align) {
+    //  el.className += ' vjs-overlay-' + align;
+    //}
 
     // append the content
-    if (typeof content === 'string') {
-      el.innerHTML = content;
-    } else {
-      el.appendChild(content);
-    }
+    //if (typeof content === 'string') {
+    //  el.innerHTML = content;
+    //} else {
+    //  el.appendChild(content);
+    //}
+     el.onclick = function()
+      {
+        player.pause();
+        window.open(settings.content);
+      }
 
     // add the overlay to the player
     player.el().appendChild(el);
