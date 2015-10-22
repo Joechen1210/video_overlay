@@ -46,8 +46,8 @@
       el.onmousedown = function()
       {
         player.pause();
-       el.className = 'vjs-overlay-center';
-          player.el().appendChild(el);
+        el.className = 'vjs-overlay-center';
+        window.el().appendChild(el);
       }
     // add the overlay to the player
     player.el().appendChild(el);
