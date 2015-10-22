@@ -57,7 +57,7 @@
 }
 .vjs-overlay.vjs-overlay-center {
   position: absolute;
-  top: 50%;
+  top: auto;
   right: 0;
   bottom: 50%;
   left: 0;
