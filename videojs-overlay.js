@@ -45,23 +45,26 @@
     //  el.appendChild(content);
       
     // add the overlay to the player
-    
+    player.el().appendChild(el);
       
     //}
      el.onclick = function()
       {
-        //alert("hello");
-       // window.open("http://www.w3schools.com/tags/tag_div.asp");
-         var ad = document.createElement('div'),
-        content = overlay.contentUrl;
-        ad.className = 'vjs-overlay-center';
-         ad.load(content);
-        // ad.innerHTML = content;
-        player.el().appendChild(ad);
+         
          player.pause();
+        //alert("hello")                     //window.open("http://www.w3schools.com/tags/tag_div.asp");
+         var ad = document.createElement('div');
+        ad.className = 'vjs-overlay-center';
+         overlay.el = ad;
+         ad.load(overlay.contentUrl);
+         //var fram = document.createElement('iframe'),
+        //     context = overlay.contentUrl;
+         //fra
+        // ad.innerHTML = content;
+         player.el().appendChild(ad);
       }
-      
-     player.el().appendChild(el);
+    　
+    
     
   };
   hideOverlay = function(player, settings, overlay) {
