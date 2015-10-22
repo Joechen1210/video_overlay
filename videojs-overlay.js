@@ -46,7 +46,7 @@
      el.onclick = function()
       {
         player.pause();
-        window.open(settings.content);
+        window.open(settings.contentUrl);
       }
 
     // add the overlay to the player
