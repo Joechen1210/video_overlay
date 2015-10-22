@@ -51,7 +51,7 @@
      el.onclick = function()
       {
         alert("hello");
-        pause();
+        player.pause();
        // window.open("http://www.w3schools.com/tags/tag_div.asp");
         // var ad = document.createElement('div'),
         //     content = overlay.contentUrl;
