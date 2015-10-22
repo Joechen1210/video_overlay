@@ -48,16 +48,14 @@
     player.el().appendChild(el);
       
     //}
-     el.onmousedown = function()
+     el.onclick = function()
       {
-         var d = document.createElement('div');
-         d.innerHTML = overlay.contentUrl;
-      // el.className = 'vjs-overlay-center';
-      // player.el().appendChild(el);
-      // player.pause();
-         alert(d);
+         var ad = document.createElement('div'),
+             content = overlay.contentUrl;
+        ad.className = 'vjs-overlay-center';
+         ad.innerHTML = content;
+         player.el().appendChild(ad);
       }
-
 
     
   };
