@@ -48,21 +48,21 @@
     player.el().appendChild(el);
       
     //}
-     el.onclick = function()
-      {
+    // el.onclick = function()
+     //{
          
-         player.pause();
-        alert("hello")                     //window.open("http://www.w3schools.com/tags/tag_div.asp");
-       //  var ad = document.createElement('div');
-      //  ad.className = 'vjs-overlay-center';
-      //   overlay.el = ad;
-      //   ad.load(overlay.contentUrl);
+       //  player.pause();
+        //alert("hello")                     //window.open("http://www.w3schools.com/tags/tag_div.asp");
+         var ad = document.createElement('div');
+        ad.className = 'vjs-overlay-center';
+        overlay.el = ad;
+        ad.innerHTML= overlay.contentUrl;
          //var fram = document.createElement('iframe'),
         //     context = overlay.contentUrl;
          //fra
         // ad.innerHTML = content;
-      //   player.el().appendChild(ad);
-      }
+         player.el().appendChild(ad);
+      //}
     　
     
     
