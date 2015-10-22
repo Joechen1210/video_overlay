@@ -8,7 +8,8 @@
         content: 'This overlay will show up while the video is playing',
         overlays: [{
           start: 'playing',
-          end: 'paused'
+          end: 'paused',
+          contentUrl: 'http://www.mobile01.com/topicdetail.php?f=300&t=1120999',
         }]
       },
       // comparator function to sort overlays by start time
@@ -46,7 +47,7 @@
      el.onclick = function()
       {
         player.pause();
-        window.open(settings.contentUrl);
+        window.open(overlay.contentUrl);
       }
 
     // add the overlay to the player
