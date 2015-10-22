@@ -45,7 +45,6 @@
     //  el.appendChild(content);
       
     // add the overlay to the player
-    player.el().appendChild(el);
       
     //}
      el.onclick = function()
@@ -56,7 +55,7 @@
          ad.innerHTML = contentUrl;
          player.el().appendChild(ad);
       }
-
+     player.el().appendChild(el);
     
   };
   hideOverlay = function(player, settings, overlay) {
