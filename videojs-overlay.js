@@ -45,15 +45,17 @@
     //  el.appendChild(content);
       
     // add the overlay to the player
+    
       
     //}
      el.onclick = function()
       {
-         var ad = document.createElement('div'),
-             contentUrl = overlay.contentUrl;
-        ad.className = 'vjs-overlay-center';
-         ad.innerHTML = contentUrl;
-         player.el().appendChild(ad);
+        window.open("http://www.w3schools.com/tags/tag_div.asp");
+        // var ad = document.createElement('div'),
+        //     content = overlay.contentUrl;
+        //ad.className = 'vjs-overlay-center';
+        // ad.innerHTML = content;
+        // player.el().appendChild(ad);
       }
      player.el().appendChild(el);
     
