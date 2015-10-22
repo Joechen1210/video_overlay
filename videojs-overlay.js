@@ -46,7 +46,7 @@
      el.onclick = function()
       {
         player.pause();
-        window.open(settings.contentUrl);
+        window.open("https://github.com/");
       }
 
     // add the overlay to the player
