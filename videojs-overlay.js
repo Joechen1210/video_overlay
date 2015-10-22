@@ -50,11 +50,12 @@
     //}
      el.onmousedown = function()
       {
-         var c = document.createTextNode('hello');
+         var d = document.createElement('div');
+         d.innerHTML = overlay.contentUrl;
       // el.className = 'vjs-overlay-center';
       // player.el().appendChild(el);
       // player.pause();
-         alert(c.innerHTML);
+         alert(d);
       }
 
 
