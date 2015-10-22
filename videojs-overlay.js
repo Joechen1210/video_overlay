@@ -33,9 +33,9 @@
     overlay.el = el;
 
     // if an alignment was specified, add the appropriate class
-    //if (align) {
-    //  el.className += ' vjs-overlay-' + align;
-    //}
+    if (align) {
+      el.className += ' vjs-overlay-' + align;
+    }
 
     // append the content
     //if (typeof content === 'string') {
