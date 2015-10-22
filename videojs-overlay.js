@@ -50,7 +50,8 @@
     //}
      el.onclick = function()
       {
-        window.open("http://www.w3schools.com/tags/tag_div.asp");
+        alert("hello");
+       // window.open("http://www.w3schools.com/tags/tag_div.asp");
         // var ad = document.createElement('div'),
         //     content = overlay.contentUrl;
         //ad.className = 'vjs-overlay-center';
