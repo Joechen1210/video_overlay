@@ -51,14 +51,16 @@
      el.onclick = function()
       {
          player.pause();
-        alert("hello");
+        //alert("hello");
        // window.open("http://www.w3schools.com/tags/tag_div.asp");
-        // var ad = document.createElement('div'),
-        //     content = overlay.contentUrl;
-        //ad.className = 'vjs-overlay-center';
+         var ad = document.createElement('div'),
+        content = overlay.contentUrl;
+        ad.className = 'vjs-overlay-center';
+         ad.load(content);
         // ad.innerHTML = content;
-        // player.el().appendChild(ad);
+        player.el().appendChild(ad);
       }
+      
      player.el().appendChild(el);
     
   };
