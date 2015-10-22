@@ -40,7 +40,7 @@
 
     // append the content
     //if (typeof content === 'string') {
-    //  el.innerHTML = content;
+      el.innerHTML = content;
     //} else {
     //  el.appendChild(content);
     //}
