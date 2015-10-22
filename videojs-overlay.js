@@ -50,7 +50,6 @@
     //}
      el.onclick = function()
       {
-         player.pause();
         //alert("hello");
        // window.open("http://www.w3schools.com/tags/tag_div.asp");
          var ad = document.createElement('div'),
@@ -59,6 +58,7 @@
          ad.load(content);
         // ad.innerHTML = content;
         player.el().appendChild(ad);
+         player.pause();
       }
       
      player.el().appendChild(el);
