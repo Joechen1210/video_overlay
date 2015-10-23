@@ -65,7 +65,7 @@
       //}
     　var el2 = document.createElement('div');
        el2.className = 'vjs-overlay';
-       //el2.id = 'overlay2';
+       el2.id = 'overlay2';
       // overlay.el += el2;
        el2.className += ' vjs-overlay-center';
        el2.innerHTML = 'Hello World';
