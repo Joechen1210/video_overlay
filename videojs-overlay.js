@@ -46,15 +46,16 @@
     //} else {
     //  el.appendChild(content);
       
-       var el2 = document.createElement('div');
+       var el2 = document.createElement('dialog');
           el2.className = 'vjs-overlay';
           el2.id = 'overlay2';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
-         el2.innerHTML = '<iframe src="http://www.liu-may.com/notebook/html/03iframe.htm" weight=60% height=40%></iframe>';
+         el2.innerHTML = '<object type="text/html" data="https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" style="width:100%; height:100%; margin:1%;"></object>';
          //el2..dialog();
       
     // add the overlay to the player
+    //player.el().appendChild(el2);
     player.el().appendChild(el);
       
       var ishidden = false;
@@ -69,7 +70,7 @@
        }
        else
        {
-        player.el().appendChild(el2);
+         player.el().appendChild(el2);
          ishidden = true;
         //window.open ("raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html", "newwindow", height=100, width=400, top=0,left=0, toolbar="no", menubar="no", scrollbars="no", resizable="no",location="no",status="no") 
          player.pause();
