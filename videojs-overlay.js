@@ -49,7 +49,7 @@
           el2.id = 'overlay2';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
-         //el2.innerHTML = '<iframe src="https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html"></iframe>';
+         el2.innerHTML = '<h2>Hello World</h2>';
          //el2..dialog();
       
     // add the overlay to the player
