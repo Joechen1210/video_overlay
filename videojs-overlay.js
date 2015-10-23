@@ -51,7 +51,7 @@
           el2.id = 'overlay2';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
-         el2.innerHTML = '<object type="text/html" data="https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" style="width:100%; height:100%; margin:1%;"></object>';
+         el2.innerHTML = '<object type="text/html" data="https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html"></object>';
          //el2..dialog();
       
     // add the overlay to the player
