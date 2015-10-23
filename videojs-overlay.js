@@ -51,7 +51,7 @@
           el2.id = 'overlay2';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
-         el2.innerHTML = '<iframe src="http://www.liu-may.com/notebook/html/03iframe.htm" width="450" height="200" frameborder="0"></iframe>';
+         el2.innerHTML = '<iframe src="http://www.liu-may.com/notebook/html/03iframe.htm" frameborder="0"></iframe>';
          //el2..dialog();
       
     // add the overlay to the player
