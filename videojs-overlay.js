@@ -44,18 +44,19 @@
     //} else {
     //  el.appendChild(content);
       
+       var el2 = document.createElement('div');
+          el2.className = 'vjs-overlay';
+          el2.id = 'overlay2';
+      // overlay.el += el2;
+         el2.className += ' vjs-overlay-center';
+         el2.innerHTML = 'Hello World';
+      
     // add the overlay to the player
     player.el().appendChild(el);
       
     //}
      el.onclick = function()
      {
-         var el2 = document.createElement('div');
-          el2.className = 'vjs-overlay';
-          el2.id = 'overlay2';
-      // overlay.el += el2;
-         el2.className += ' vjs-overlay-center';
-         el2.innerHTML = 'Hello World';
          player.el().appendChild(el2);
          player.pause();
         //alert("hello")                     //window.open("http://www.w3schools.com/tags/tag_div.asp");
