@@ -21,7 +21,7 @@
       ascendingByEnd = function(left, right) {
         return left.end - right.end;
       },
-      includejs,
+      //includejs,
       showOverlay,
       hideOverlay,
       init;
