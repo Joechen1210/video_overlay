@@ -69,8 +69,8 @@
        el2.className = 'vjs-overlay';
       el2.id = 'overlay2';
       overlay.el += el2;
-       el2.className += ' vjs-overlay-center';
-       el2.innerHTML = 'Hello World';
+       el2.className += 'vjs-overlay-center';
+       el2.innerHTML = '<iframe src="http://www.w3schools.com"></iframe>';
        player.el().appendChild(el2);
     
     
