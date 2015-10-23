@@ -68,7 +68,7 @@
           el2.id = 'overlay2';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
-         el2..dialog();
+        // el2..dialog();
       
     // add the overlay to the player
     player.el().appendChild(el);
