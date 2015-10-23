@@ -32,6 +32,7 @@
         align = settings.align || overlay.align;
     el.className = 'vjs-overlay';
     overlay.el = el;
+    el.style.borderStyle = 'none';
     //el.style.opacity = 0.2;
 
     // if an alignment was specified, add the appropriate class
