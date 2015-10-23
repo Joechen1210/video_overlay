@@ -61,4 +61,5 @@
   bottom: 50%;
   left: 0;
   margin:auto;
+  overflow: scroll;
 }
