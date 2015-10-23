@@ -70,8 +70,8 @@
       el2.id = 'overlay2';
       overlay.el += el2;
        el2.className += 'vjs-overlay-center';
-       var text = '<h2>Hello World<h2>';
-       el2.appendchild(text);
+       var text = 'Hello World';
+       el2.innerHTML = text;
        player.el().appendChild(el2);
     
     
