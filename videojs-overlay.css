@@ -56,10 +56,10 @@
 .vjs-overlay.vjs-overlay-center {
   position: absolute;
   background:transparent
-  top: auto;
+  /*top: auto;
   right: 0;
   bottom: 50%;
-  left: 0;
-  margin:auto;
-  overflow: scroll;
+  left: 0;*/
+  margin: 0px auto;
+  overflow: auto;
 }
