@@ -54,11 +54,22 @@
     // add the overlay to the player
     player.el().appendChild(el);
       
+      var ishidden = false;
     //}
      el.onclick = function()
      {
+       if(ishidden) 
+       {
+         ishidden = false;
+         player.el().removeChild(el2);
+         player.play();
+       }
+       else
+       {
          player.el().appendChild(el2);
+         ishidden = true;
          player.pause();
+       }
         //alert("hello")                     //window.open("http://www.w3schools.com/tags/tag_div.asp");
         //var ad = document.createElement('div');
         //ad.className = 'vjs-overlay-center';
