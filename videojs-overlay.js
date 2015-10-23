@@ -4,13 +4,13 @@
 (function(window, videojs) {
   'use strict';
 
-function loadjscssfile(filename, filetype){
-    if (filetype=="js"){ //if filename is a external JavaScript file
-        var fileref=document.createElement('script')
-        fileref.setAttribute("type","text/javascript")
-        fileref.setAttribute("src", filename)
-        player.el().appendChild(fileref);
-    }
+//function loadjscssfile(filename, filetype){
+    //if (filetype=="js"){ //if filename is a external JavaScript file
+        //var fileref=document.createElement('script')
+        //fileref.setAttribute("type","text/javascript")
+        //fileref.setAttribute("src", filename)
+        //player.el().appendChild(fileref);
+    //}
     //else if (filetype=="css"){ //if filename is an external CSS file
     //    var fileref=document.createElement("link")
     //    fileref.setAttribute("rel", "stylesheet")
@@ -20,8 +20,8 @@ function loadjscssfile(filename, filetype){
     //if (typeof fileref!="undefined")
     //    document.getElementsByTagName("head")[0].appendChild(fileref)
 //}
-loadjscssfile("http://code.jquery.com/jquery-1.10.2.js", "js");
-loadjscssfile("http://code.jquery.com/ui/1.11.4/jquery-ui.js", "js");
+//loadjscssfile("http://code.jquery.com/jquery-1.10.2.js", "js");
+//loadjscssfile("http://code.jquery.com/ui/1.11.4/jquery-ui.js", "js");
 //loadjscssfile("http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css", "css");
 
   var defaults = {
@@ -69,6 +69,7 @@ loadjscssfile("http://code.jquery.com/ui/1.11.4/jquery-ui.js", "js");
           el2.id = 'overlay2';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
+         el2.innerHTML = '<iframe src="ttps://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html"></iframe>';
         // el2..dialog();
       
     // add the overlay to the player
