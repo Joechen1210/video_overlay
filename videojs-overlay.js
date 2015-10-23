@@ -34,9 +34,9 @@
     overlay.el = el;
 
     // if an alignment was specified, add the appropriate class
-    if (align) {
+   //if (align) {
       el.className += ' vjs-overlay-' + align;
-    }
+    //}
 
     // append the content
     //if (typeof content === 'string') {
@@ -53,17 +53,25 @@
          
        //  player.pause();
         //alert("hello")                     //window.open("http://www.w3schools.com/tags/tag_div.asp");
-         var ad = document.createElement('div');
-        ad.className = 'vjs-overlay-center';
-        overlay.el = ad;
-        ad.innerHTML= overlay.contentUrl;
+        //var ad = document.createElement('div');
+        //ad.className = 'vjs-overlay-center';
+        //overlay.el = ad;
+        //ad.innerHTML= overlay.contentUrl;
          //var fram = document.createElement('iframe'),
         //     context = overlay.contentUrl;
          //fra
         // ad.innerHTML = content;
-         player.el().appendChild(ad);
+         //player.el().appendChild(ad);
       //}
-    　
+    　var el2 = document.createElement('div'),
+        content = overlay.content || settings.content,
+        align = settings.align || overlay.align;
+       el2.className = 'vjs-overlay';
+      el2.id = 'overlay2';
+      overlay.el += el2;
+       el2.className += ' vjs-overlay-center';
+       el2.innerHTML = 'Hello World';
+       player.el().appendChild(el2);
     
     
   };
