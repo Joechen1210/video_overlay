@@ -25,6 +25,7 @@
   left: 50%;
 }
 .vjs-overlay.vjs-overlay-top-right {
+  display: none;
   left: auto;
   right: 5px;
 }
