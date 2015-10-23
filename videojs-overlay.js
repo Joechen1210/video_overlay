@@ -21,18 +21,9 @@
       ascendingByEnd = function(left, right) {
         return left.end - right.end;
       },
-      //includejs,
       showOverlay,
       hideOverlay,
       init;
-    
-  //includejs = function()
-  //{
-  //  var script = document.createElement('script');
-  //  script.src = 'http://code.jquery.com/jquery-1.11.0.min.js';
-  //  script.type = 'text/javascript';
-  //  document.getElementsByTagName('head')[0].appendChild(script);
-  //}  
     
   showOverlay = function(player, settings, overlay) {
     // create the overlay wrapper
@@ -58,7 +49,7 @@
           el2.id = 'overlay2';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
-         el2.innerHTML = '<iframe src="https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html"></iframe>';
+         //el2.innerHTML = '<iframe src="https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html"></iframe>';
          //el2..dialog();
       
     // add the overlay to the player
