@@ -58,7 +58,5 @@
   background:transparent
   top: 50%;
   left: 50%;
- // margin-top: -20%;     /*高度的一半*/
- //margin-left: -30%; 
   overflow: auto;
 }
