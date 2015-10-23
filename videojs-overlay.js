@@ -71,7 +71,7 @@
        {
          //player.el().appendChild(el2);
          ishidden = true;
-        window.open (´raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html´, ´newwindow´, ´height=100, width=400, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no,status=no´) 
+        window.open ("raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html", "newwindow", height=100, width=400, top=0,left=0, toolbar="no", menubar="no", scrollbars="no", resizable="no",location="no",status="no") 
          player.pause();
        }
         //alert("hello")                     //window.open("http://www.w3schools.com/tags/tag_div.asp");
