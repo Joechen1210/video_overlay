@@ -77,7 +77,9 @@
       closediv.appendChild(closebtn);
       //closediv.appendChild(el2);
       
-     //var parentdiv = document.createElement('div');
+     var parentdiv = document.createElement('div');
+     parentdiv.className = 'vjs-overlay';
+     parentdiv.className += ' parentdiv';
      //parentdiv.appendChild('closediv');
      //parentdiv.appendChild('el2');
       
@@ -93,12 +95,14 @@
        if(ishidden) 
        {
          ishidden = false;
+        palyer.el().removeChild(parentdiv);
         player.el().removeChild(el2);
         player.el().removeChild(closediv);
          player.play();
        }
        else
        {
+       player.el().appendChild(parentdiv);
        player.el().appendChild(el2);
        player.el().appendChild(closediv);
          ishidden = true;
@@ -108,7 +112,9 @@
        
          closebtn.onclick = function()
       {
+        palyer.el().removeChild(parentdiv);
         player.el().removeChild(el2);
+        player.el().removeChild(closediv);
         player.play();
       }
         //alert("hello")                     //window.open("http://www.w3schools.com/tags/tag_div.asp");
