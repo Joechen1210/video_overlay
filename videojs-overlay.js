@@ -54,6 +54,7 @@
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
          //el2..dialog();
+          el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
       
       var closediv = document.createElement('div');
           closediv.className = 'vjs-overlay';
@@ -73,7 +74,7 @@
      //parentdiv.appendChild(closediv);
      //parentdiv.appendChild(el2);
       
-     el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
+    
       
     // add the overlay to the player
     player.el().appendChild(el);
