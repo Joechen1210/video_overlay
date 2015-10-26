@@ -47,8 +47,8 @@
     //  el.appendChild(content);
       
        var el2 = document.createElement('div');
-         // el2.className = 'vjs-overlay';
-        //  el2.className += ' vjs-overlay-center';
+          //el2.className = 'vjs-overlay';
+          //el2.className += ' vjs-overlay-center';
           el2.id = 'overlay2';
           el2.margin = 'top';
       // overlay.el += el2;
@@ -62,8 +62,8 @@
          //el2..dialog();
       
       var closediv = document.createElement('div');
-          closediv.className = 'vjs-overlay';
-          closediv.className += ' closediv';
+          //closediv.className = 'vjs-overlay';
+          //closediv.className += ' closediv';
           closediv.id = 'divclose';
       var closebtn = document.createElement('button');
       var closetext = document.createTextNode('X');
