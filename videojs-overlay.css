@@ -55,7 +55,7 @@
 .vjs-overlay.vjs-overlay-center {
  background: white;
  position: absolute;
- width: auto;
+ width: 400;
  height: 300;
  z-index: 90;
  top: 50%;
@@ -65,7 +65,7 @@
 }
 
 .vjs-overlay.closediv {
-width: auto;
+width: 450;
 height: 350;
 background: white;
 top: 50%;
