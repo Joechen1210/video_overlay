@@ -49,17 +49,27 @@
     {
       el.appendChild(content);
     }
+        // add the overlay to the player
     player.el().appendChild(el);
+      
+      //add parent div
+      var parentdiv = document.createElement('div');
+          parentdiv.className = 'vjs-overlay';
+          parentdiv.className += ' div-parent';
+          parentdiv.id = 'divparent';
+      
       
       //add web site div
        var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
           el2.className += ' vjs-overlay-center';
           el2.id = 'overlay2';
-      
+          
+      //add iframe witch use to embed URL 
     var el2frame = document.createElement('iframe');
        el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
       
+      //add close web button
       var closediv = document.createElement('div');
           closediv.className = 'vjs-overlay';
           closediv.className += ' closediv';
@@ -67,13 +77,14 @@
       var closebtn = document.createElement('button');
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
-      //closediv.appendChild(closebtn);
+      closediv.appendChild(closebtn);
       
        //el2.innerHTML = 'new div';
-       el2.appendChild(closebtn);
-       el2.appendChild(el2frame);
-      
-    // add the overlay to the player
+       //el2.appendChild(closebtn);
+       //el2.appendChild(el2frame);
+      parentdiv.appendChild(closediv);
+      parentdiv.appendChild(el2);
+
       var ishidden = false;
      el.onclick = function()
      {
