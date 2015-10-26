@@ -60,6 +60,7 @@
  z-index: 100;
  top: 50%;
  left: 50%;
+ align: justify;
  margin: -150px 0 0 -200px;
  overflow: auto;
 }
@@ -70,6 +71,7 @@ height: 350;
 background: white;
 top: 50%;
 left: 50%;
+float: right;
 margin: -175px 0 0 -200px;
 z-index: 90;
 }
