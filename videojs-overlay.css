@@ -9,7 +9,6 @@
 .vjs-overlay.vjs-overlay-top-left {
   position: absolute;
   width: 33%;
-   background: transparent; 
   /*background-color: #646464; /* IE8 fallback */
   /* background-color: rgba(255, 255, 255, 0.4); */
   top: 5px;
@@ -19,23 +18,19 @@
 
 /* overlay alignment styles */
 .vjs-overlay.vjs-overlay-top {
-   background: transparent; 
   margin-left: -16.5%;
   left: 50%;
 }
 .vjs-overlay.vjs-overlay-top-right {
-  background: transparent;
   left: auto;
   right: 5px;
 }
 .vjs-overlay.vjs-overlay-left {
   top: 50%;
-  background: transparent; 
   margin-top: -15px;
 }
 .vjs-overlay.vjs-overlay-right {
   left: auto;
-  background: transparent; 
   right: 5px;
   top: 50%;
   margin-top: -15px;
@@ -43,19 +38,16 @@
 .vjs-overlay.vjs-overlay-bottom {
   margin-left: -16.5%;
   left: 50%;
-   background: transparent; 
   top: auto;
   bottom: 4.5em;
 }
 .vjs-overlay.vjs-overlay-bottom-left {
   bottom: 4.5em;
-  background: transparent; 
   top: auto;
   left: 5px;
 }
 .vjs-overlay.vjs-overlay-bottom-right {
   bottom: 4.5em;
-   background: transparent; 
   top: auto;
   left: auto;
   right: 5px;
