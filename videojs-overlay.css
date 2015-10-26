@@ -91,7 +91,7 @@ height: 100%;
 .vjs-overlay.div-parent
 {
 display: table;
-background: transparent;
+/* background: transparent; */
 position: relative;
 width:600; 
 height:450;
