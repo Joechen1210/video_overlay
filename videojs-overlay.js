@@ -70,8 +70,8 @@
       
      var parentdiv = document.createElement('div');
      parentdiv.display = inline-block;
-     parentdiv.appendChild('closediv');
-     parentdiv.appendChild('el2');
+     parentdiv.appendChild(closediv);
+     parentdiv.appendChild(el2);
       
      //el2.appendChild(closebtn);
       
