@@ -64,8 +64,9 @@
  overflow: auto;
 }
 
-.vjs-overlay.closediv {position: absolute;
-width: 450;
+.vjs-overlay.closediv {
+position: absolute;
+width: 400;
 height: 350;
 background: white;
 top: 50%;
