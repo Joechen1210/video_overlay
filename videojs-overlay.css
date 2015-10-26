@@ -78,7 +78,7 @@ z-index: 100;
 .vjs-overlay.frame 
 {
 background: white;
-width: 390px;
+width: auto;
 height: 100%;
 }
 
