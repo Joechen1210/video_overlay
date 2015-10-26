@@ -53,7 +53,7 @@
        var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
           el2.id = 'overlay2';
-       // el2.margin = 'top';
+        el2.margin = 'top';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
        var el2frame = document.createElement('iframe');
