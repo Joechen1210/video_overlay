@@ -54,7 +54,7 @@
   right: 5px;
 }
 .vjs-overlay.vjs-overlay-center {
- background: white;
+ background: transparent;
  position: absolute;
  width: 400;
  height: 300;
@@ -78,8 +78,6 @@ z-index: 100;
 .vjs-overlay.frame 
 {
 background: white;
-width: auto;
-height: 100%;
 }
 
 
