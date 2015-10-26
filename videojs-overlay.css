@@ -75,11 +75,13 @@ padding: 0px 0px 0px 0px;
 z-index: 100;
 }
 
-/*.vjs-overlay.frame 
+.vjs-overlay.frame 
 {
 background: white;
+width: 400;
+height: 300;
 }
-*/
+
 
 /*.vjs-overlay.parentdiv
 {
