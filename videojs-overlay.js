@@ -47,8 +47,7 @@
     }
      // add the overlay to the player
     player.el().appendChild(el);
-    
-    
+  
       
        var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
