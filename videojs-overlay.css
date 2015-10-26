@@ -67,6 +67,7 @@
 .vjs-overlay.closediv {
 width: 400;
 height: 350;
+background: white;
 top: 50%;
 left: 50%;
 margin: -175px 0 0 -200px;
