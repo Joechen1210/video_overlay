@@ -52,7 +52,7 @@
           el2.margin = 'top';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
-         el2.innerHTML = '<iframe src=http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html></iframe>';
+         el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
          //el2..dialog();
       
       var closediv = document.createElement('div');
