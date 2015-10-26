@@ -71,11 +71,6 @@
      //parentdiv.appendChild('closediv');
      //parentdiv.appendChild('el2');
       
-       var parentdiv = document.createElement('div');
-     parentdiv.display = inline-block;
-     parentdiv.appendChild('closediv');
-     parentdiv.appendChild('el2');
-      
      el2.appendChild(closebtn);
       
     // add the overlay to the player
