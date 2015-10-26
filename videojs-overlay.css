@@ -59,7 +59,7 @@
  width: 400;
  height: 300;
  z-index: 100;
- background: transparent; */
+ background: transparent; 
  top: 50%;
  left: 50%;
  margin: -150px 0 0 -200px;
@@ -68,7 +68,7 @@
 
 .vjs-overlay.closediv {
 width: 400;
-background: transparent; */
+background: transparent; 
 height: 350;
 top: 50%;
 left: 50%;
