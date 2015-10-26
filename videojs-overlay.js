@@ -46,7 +46,7 @@
     //} else {
     //  el.appendChild(content);
       
-       var el2 = document.createElement('dialog');
+       var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
           el2.id = 'overlay2';
       // overlay.el += el2;
