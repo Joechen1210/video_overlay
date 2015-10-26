@@ -63,7 +63,7 @@
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
       closebtn.id = 'closeevent';
-      closebtn.verticalAlign = 'middle';
+      //closebtn.verticalAlign = 'middle';
       //closediv.appendChild(closebtn);
       //closediv.appendChild(el2);
       
