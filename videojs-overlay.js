@@ -74,7 +74,7 @@
        el2.appendChild(el2frame);
       
     // add the overlay to the player
-      var ishidden = tue;
+      var ishidden = false;
      el.onclick = function()
      {
        if(ishidden) 
