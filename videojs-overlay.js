@@ -47,8 +47,8 @@
     //  el.appendChild(content);
       
        var el2 = document.createElement('div');
-          el2.className = 'vjs-overlay';
-          el2.className += ' vjs-overlay-center';
+         // el2.className = 'vjs-overlay';
+        //  el2.className += ' vjs-overlay-center';
           el2.id = 'overlay2';
           el2.margin = 'top';
       // overlay.el += el2;
@@ -73,9 +73,14 @@
       //closediv.appendChild(closebtn);
       //closediv.appendChild(el2);
       
-     //var parentdiv = document.createElement('div');
-     //parentdiv.appendChild('closediv');
-     //parentdiv.appendChild('el2');
+     var parentdiv = document.createElement('div');
+        parentdiv.className = 'vjs-overlay';
+        parentdiv.className += ' vjs-overlay-center';
+        parentdiv.id = 'parentdiv';
+        
+    var divparent = document.getElementById('parentdiv');
+     divparent.appendChild(closediv);
+     divparent.appendChild(el2);
       
      closediv.appendChild(closebtn);
       
@@ -92,12 +97,14 @@
          ishidden = false;
         player.el().removeChild(el2);
         //player.el().removeChild(closediv);
+        player.el().removeChild(parentdiv);
          player.play();
        }
        else
        {
        player.el().appendChild(el2);
       //player.el().appendChild(closediv);
+        player.el().appendChild(parentdiv);
          ishidden = true;
         //window.open ("raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html", "newwindow", height=100, width=400, top=0,left=0, toolbar="no", menubar="no", scrollbars="no", resizable="no",location="no",status="no") 
          player.pause();
@@ -107,6 +114,7 @@
       {
         player.el().removeChild(el2);
        // player.el().removeChild(closediv);
+       player.el().removeChild(parentdiv);
         player.play();
       }
         //alert("hello")                     //window.open("http://www.w3schools.com/tags/tag_div.asp");
