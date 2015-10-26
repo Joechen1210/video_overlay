@@ -41,10 +41,14 @@
     //}
 
     // append the content
-    //if (typeof content === 'string') {
+    if (typeof content === 'string') 
+    {
       el.innerHTML = content;
-    //} else {
-    //  el.appendChild(content);
+    }
+    else
+    {
+      el.appendChild(content);
+    }
     player.el().appendChild(el);
       
       //add web site div
@@ -52,18 +56,9 @@
           el2.className = 'vjs-overlay';
           el2.className += ' vjs-overlay-center';
           el2.id = 'overlay2';
-         // el2.margin = 'top';
-      // overlay.el += el2;
+      
     var el2frame = document.createElement('iframe');
        el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
-       //el2frame.backgroundColor = 'white';
-       //el2frame.className = 'vjs-overlay';
-       //el2frame.className += ' frame';
-       el2.innerHTML = 'new div';
-       //el2.appendChild(closebtn);
-       el2.appendChild(el2frame);
-        // el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
-         //el2..dialog();
       
       var closediv = document.createElement('div');
           closediv.className = 'vjs-overlay';
@@ -72,70 +67,36 @@
       var closebtn = document.createElement('button');
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
-      //closebtn.id = 'closeevent';
-      closebtn.verticalAlign = 'Top';
-      closediv.appendChild(closebtn);
       //closediv.appendChild(closebtn);
-      //closediv.appendChild(el2);
       
-     //var parentdiv = document.createElement('div');
-    //    parentdiv.className = 'vjs-overlay';
-    //    parentdiv.className += ' vjs-overlay-center';
-    //    parentdiv.id = 'parentdiv';
-        
-    //var divparent = document.getElementById('parentdiv');
-    // divparent.appendChild(closediv);
-    // divparent.appendChild(el2);
-      
-     
+       el2.innerHTML = 'new div';
+       el2.appendChild(closebtn);
+       el2.appendChild(el2frame);
       
     // add the overlay to the player
-    
-    //player.el().appendChild(closediv);
-      
-      var ishidden = false;
-    //}
+      var ishidden = tue;
      el.onclick = function()
      {
        if(ishidden) 
        {
-         ishidden = false;
-        player.el().removeChild(el2);
-        //player.el().removeChild(closediv);
-        //player.el().removeChild(parentdiv);
-         player.play();
+           ishidden = false;
+           player.el().removeChild(el2);
+           player.play();
        }
        else
        {
-       player.el().appendChild(el2);
-       //player.el().appendChild(closediv);
-      //  player.el().appendChild(parentdiv);
-         ishidden = true;
-        //window.open ("raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html", "newwindow", height=100, width=400, top=0,left=0, toolbar="no", menubar="no", scrollbars="no", resizable="no",location="no",status="no") 
-         player.pause();
+           player.el().appendChild(el2);
+           ishidden = true;
+           player.pause();
        }
-       
+     }
+     
          closebtn.onclick = function()
       {
-      player.el().removeChild(el2);
-       //player.el().removeChild(closediv);
-       //player.el().removeChild(parentdiv);
-        player.play();
-      }
-        //alert("hello")                     //window.open("http://www.w3schools.com/tags/tag_div.asp");
-        //var ad = document.createElement('div');
-        //ad.className = 'vjs-overlay-center';
-        //overlay.el = ad;
-        //ad.innerHTML= overlay.contentUrl;
-         //var fram = document.createElement('iframe'),
-        //     context = overlay.contentUrl;
-         //fra
-        // ad.innerHTML = content;
-         //player.el().appendChild(ad);
-      }
-       　
-    
-    
+           player.el().removeChild(el2);
+           player.play();
+       }
+      
   };
   hideOverlay = function(player, settings, overlay) {
     overlay.el.parentNode.removeChild(overlay.el);
