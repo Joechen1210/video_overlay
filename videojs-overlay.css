@@ -53,7 +53,8 @@
   left: auto;
   right: 5px;
 }
-.vjs-overlay.vjs-overlay-center { 
+.vjs-overlay.vjs-overlay-center {
+ display: inline-block;
  position: absolute;
  background:transparent;
  top: 300px;
