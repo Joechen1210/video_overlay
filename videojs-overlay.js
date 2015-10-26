@@ -54,9 +54,9 @@
       // overlay.el += el2;
     var el2frame = document.createElement('iframe');
        el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
-       el2frame.backgroundColor = 'white';
-       el2frame.className = 'vjs-overlay';
-       el2frame.className += ' frame';
+       //el2frame.backgroundColor = 'white';
+      // el2frame.className = 'vjs-overlay';
+       //el2frame.className += ' frame';
        el2.appendChild(el2frame);
         // el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
          //el2..dialog();
