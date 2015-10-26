@@ -99,14 +99,14 @@
        {
          ishidden = false;
         player.el().removeChild(el2);
-        player.el().removeChild(closediv);
+        //player.el().removeChild(closediv);
         //player.el().removeChild(parentdiv);
          player.play();
        }
        else
        {
        player.el().appendChild(el2);
-      player.el().appendChild(closediv);
+       //player.el().appendChild(closediv);
       //  player.el().appendChild(parentdiv);
          ishidden = true;
         //window.open ("raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html", "newwindow", height=100, width=400, top=0,left=0, toolbar="no", menubar="no", scrollbars="no", resizable="no",location="no",status="no") 
@@ -116,7 +116,7 @@
          closebtn.onclick = function()
       {
       player.el().removeChild(el2);
-       player.el().removeChild(closediv);
+       //player.el().removeChild(closediv);
        //player.el().removeChild(parentdiv);
         player.play();
       }
