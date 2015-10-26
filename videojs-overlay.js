@@ -57,18 +57,20 @@
       var closediv = document.createElement('div');
           closediv.className = 'vjs-overlay';
           closediv.className += ' closediv';
-          closediv..id = 'divclose';
+          closediv.id = 'divclose';
       var closebtn = document.createElement('button');
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
       closebtn.id = 'closeevent';
-      closebtn.margin = 'right';
-      closediv.appendChild(closebtn);
-      closediv.appendChild(el2);
+      //closebtn.margin = 'right';
+      //closediv.appendChild(closebtn);
+      //closediv.appendChild(el2);
+      
+      el2.appendChild(closebtn)
       
     // add the overlay to the player
-    //player.el().appendChild(el2);
-    player.el().appendChild(closediv);
+    player.el().appendChild(el2);
+    //player.el().appendChild(closediv);
       
       var ishidden = false;
     //}
