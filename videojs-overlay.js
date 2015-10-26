@@ -62,14 +62,14 @@
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
       closebtn.id = 'closeevent';
-      //closebtn.margin = 'right';
+      closebtn.margin = 'top';
       //closediv.appendChild(closebtn);
       //closediv.appendChild(el2);
       
       el2.appendChild(closebtn);
       
     // add the overlay to the player
-    player.el().appendChild(el2);
+    player.el().appendChild(el);
     //player.el().appendChild(closediv);
       
       var ishidden = false;
