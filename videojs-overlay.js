@@ -39,31 +39,24 @@
    //if (align) {
       el.className += ' vjs-overlay-' + align;
     //}
+
     // append the content
     //if (typeof content === 'string') {
       el.innerHTML = content;
     //} else {
     //  el.appendChild(content);
-    //}
-     // add the overlay to the player
-    player.el().appendChild(el);
-  
       
        var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
+          el2.className += ' vjs-overlay-center';
           el2.id = 'overlay2';
-        //el2.margin = 'top';
+          el2.margin = 'top';
       // overlay.el += el2;
-         el2.className += ' vjs-overlay-center';
-       var el2frame = document.createElement('iframe');
-       el2frame.className = 'vjs-overlay';
-       el2frame.className += ' frame';
+    var el2frame = document.createElement('iframe');
        el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
-      //el2frame.backgroundColor = 'white';
-      // el2frame.margin = 'left';
+       el2frame.backgroundColor = 'white';
        el2.appendChild(el2frame);
-      
-         //el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
+        // el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
          //el2..dialog();
       
       var closediv = document.createElement('div');
@@ -74,19 +67,18 @@
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
       closebtn.id = 'closeevent';
-      closebtn.verticalAlign = 'top';
-      closediv.appendChild(closebtn);
+      closebtn.verticalAlign = 'Top';
+      //closediv.appendChild(closebtn);
       //closediv.appendChild(el2);
       
      //var parentdiv = document.createElement('div');
-     //parentdiv.className = 'vjs-overlay';
-     //parentdiv.className += ' parentdiv';
      //parentdiv.appendChild('closediv');
      //parentdiv.appendChild('el2');
       
-     //el2.appendChild(closebtn);
+     closediv.appendChild(closebtn);
       
-   
+    // add the overlay to the player
+    player.el().appendChild(el);
     //player.el().appendChild(closediv);
       
       var ishidden = false;
@@ -96,25 +88,21 @@
        if(ishidden) 
        {
          ishidden = false;
-        //palyer.el().removeChild(parentdiv);
         player.el().removeChild(el2);
         player.el().removeChild(closediv);
          player.play();
        }
        else
        {
-       //player.el().appendChild(parentdiv);
        player.el().appendChild(el2);
-       player.el().appendChild(closediv);
+      player.el().appendChild(closediv);
          ishidden = true;
         //window.open ("raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html", "newwindow", height=100, width=400, top=0,left=0, toolbar="no", menubar="no", scrollbars="no", resizable="no",location="no",status="no") 
          player.pause();
        }
-     }
        
          closebtn.onclick = function()
       {
-        //palyer.el().removeChild(parentdiv);
         player.el().removeChild(el2);
         player.el().removeChild(closediv);
         player.play();
