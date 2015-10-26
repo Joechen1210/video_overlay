@@ -60,6 +60,7 @@
        //el2frame.className = 'vjs-overlay';
        //el2frame.className += ' frame';
        el2.innerHTML = 'new div';
+       el2.appendChild(closebtn);
        el2.appendChild(el2frame);
         // el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
          //el2..dialog();
