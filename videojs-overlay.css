@@ -55,24 +55,22 @@
 .vjs-overlay.vjs-overlay-center {
  display: inline-block;
  position: absolute;
- width: 400;
+ width: auto;
  height: 300;
  z-index: 100;
  top: 50%;
  left: 50%;
- margin: -150px 0 0 -200px;
  padding: 0px 0px 0px 0px;
  overflow: auto;
 }
 
 .vjs-overlay.closediv {
-width: 400;
+width: auto;
 height: 350;
 background: white;
 top: 50%;
 left: 50%;
 float: right;
-margin: -175px 0 0 -200px;
 padding: 0px 0px 0px 0px;
 z-index: 90;
 }
