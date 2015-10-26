@@ -60,8 +60,8 @@
  z-index: 100;
  top: 50%;
  left: 50%;
- align: justify;
  margin: -150px 0 0 -200px;
+ padding: 0px 0px 0px 0px;
  overflow: auto;
 }
 
@@ -73,6 +73,7 @@ top: 50%;
 left: 50%;
 float: right;
 margin: -175px 0 0 -200px;
+padding: 0px 0px 0px 0px;
 z-index: 90;
 }
 
