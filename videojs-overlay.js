@@ -66,7 +66,7 @@
       //closediv.appendChild(closebtn);
       //closediv.appendChild(el2);
       
-      el2.appendChild(closebtn)
+      el2.appendChild(closebtn);
       
     // add the overlay to the player
     player.el().appendChild(el2);
