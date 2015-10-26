@@ -70,7 +70,7 @@
       //closediv.appendChild(closebtn);
       
        //el2.innerHTML = 'new div';
-       //el2.appendChild(closebtn);
+       el2.appendChild(closebtn);
        el2.appendChild(el2frame);
       
     // add the overlay to the player
