@@ -66,7 +66,7 @@
 }
 
 .vjs-overlay.closediv {
-width: 450;
+width: auto;
 height: 350;
 background: white;
 top: 50%;
@@ -78,6 +78,8 @@ z-index: 100;
 .vjs-overlay.frame 
 {
 background: white;
+width: 390px;
+height: 100%;
 }
 
 
