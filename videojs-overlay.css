@@ -24,6 +24,7 @@
 .vjs-overlay.vjs-overlay-top-right {
   left: auto;
   right: 5px;
+  cursor: pointer;
 }
 .vjs-overlay.vjs-overlay-left {
   top: 50%;
