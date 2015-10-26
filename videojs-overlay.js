@@ -53,7 +53,6 @@
           el2.verticalAlign = 'top';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
-         el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
          //el2..dialog();
       
       var closediv = document.createElement('div');
@@ -64,6 +63,7 @@
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
       closebtn.id = 'closeevent';
+      el2.appendChild(closebtn);
       //closebtn.verticalAlign = 'middle';
       //closediv.appendChild(closebtn);
       //closediv.appendChild(el2);
@@ -73,7 +73,7 @@
      //parentdiv.appendChild(closediv);
      //parentdiv.appendChild(el2);
       
-     //el2.appendChild(closebtn);
+     el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
       
     // add the overlay to the player
     player.el().appendChild(el);
