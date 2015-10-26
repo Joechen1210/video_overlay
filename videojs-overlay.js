@@ -69,7 +69,7 @@
       closebtn.appendChild(closetext);
       //closediv.appendChild(closebtn);
       
-       el2.innerHTML = 'new div';
+       //el2.innerHTML = 'new div';
        el2.appendChild(closebtn);
        el2.appendChild(el2frame);
       
