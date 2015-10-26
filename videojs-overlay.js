@@ -45,7 +45,10 @@
       el.innerHTML = content;
     //} else {
     //  el.appendChild(content);
+    
+    player.el().appendChild(el);
       
+      //add web site div
        var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
           el2.className += ' vjs-overlay-center';
@@ -86,7 +89,7 @@
      
       
     // add the overlay to the player
-    player.el().appendChild(el);
+    
     //player.el().appendChild(closediv);
       
       var ishidden = false;
