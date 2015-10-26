@@ -55,6 +55,7 @@
 }
 .vjs-overlay.vjs-overlay-center {
  position: absolute;
+ background: white;
  width: 400;
  height: 300;
  z-index: 100;
