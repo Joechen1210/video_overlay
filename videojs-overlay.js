@@ -54,6 +54,13 @@
          el2.innerHTML = '<iframe src=http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html></iframe>';
          //el2..dialog();
       
+      var closebtn = document.createElement('button');
+      var closetext = document.createTextNode('X');
+      closebtn.appendChild(closetext);
+      closebtn.id = 'closeevent';
+      
+      el2.appendChild(closebtn);
+      
     // add the overlay to the player
     //player.el().appendChild(el2);
     player.el().appendChild(el);
