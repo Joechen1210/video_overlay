@@ -36,15 +36,19 @@
     //el.style.opacity = 0.2;
 
     // if an alignment was specified, add the appropriate class
-   //if (align) {
+   if (align) {
       el.className += ' vjs-overlay-' + align;
-    //}
-
+    }
     // append the content
-    //if (typeof content === 'string') {
+    if (typeof content === 'string') {
       el.innerHTML = content;
-    //} else {
-    //  el.appendChild(content);
+    } else {
+      el.appendChild(content);
+    }
+     // add the overlay to the player
+    player.el().appendChild(el);
+    
+    
       
        var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
@@ -73,8 +77,7 @@
       
      el2.appendChild(closebtn);
       
-    // add the overlay to the player
-    player.el().appendChild(el);
+   
     //player.el().appendChild(closediv);
       
       var ishidden = false;
