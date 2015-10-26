@@ -55,10 +55,10 @@
 }
 .vjs-overlay.vjs-overlay-center {
  display: table-cell;
- background: white;
+ /* background: white;
  width: 250;
  height: 300;
- /*
+ 
  top: 50%;
  left: 50%;
  padding: 0px 0px 0px 0px;*/
