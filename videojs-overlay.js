@@ -54,16 +54,21 @@
          el2.innerHTML = '<iframe src=http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html></iframe>';
          //el2..dialog();
       
+      var closediv = document.createElement('div');
+          closediv.className = 'vjs-overlay';
+          closediv.className += ' closediv';
+          closediv..id = 'divclose';
       var closebtn = document.createElement('button');
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
       closebtn.id = 'closeevent';
-      
-      el2.appendChild(closebtn);
+      closebtn.margin = 'right';
+      closediv.appendChild(closebtn);
+      closediv.appendChild(el2);
       
     // add the overlay to the player
     //player.el().appendChild(el2);
-    player.el().appendChild(el);
+    player.el().appendChild(closediv);
       
       var ishidden = false;
     //}
