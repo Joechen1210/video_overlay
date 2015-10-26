@@ -52,7 +52,7 @@
        var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
           el2.id = 'overlay2';
-        el2.margin = 'top';
+        //el2.margin = 'top';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
        var el2frame = document.createElement('iframe');
@@ -60,7 +60,7 @@
        el2frame.className += ' frame';
        el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
       //el2frame.backgroundColor = 'white';
-       el2frame.margin = 'left';
+      // el2frame.margin = 'left';
        el2.appendChild(el2frame);
       
          //el2.innerHTML = '<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html" background-color="white"></iframe>';
@@ -110,6 +110,7 @@
         //window.open ("raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html", "newwindow", height=100, width=400, top=0,left=0, toolbar="no", menubar="no", scrollbars="no", resizable="no",location="no",status="no") 
          player.pause();
        }
+     }
        
          closebtn.onclick = function()
       {
