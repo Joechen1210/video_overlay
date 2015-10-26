@@ -49,6 +49,7 @@
        var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
           el2.id = 'overlay2';
+          el2.margin = 'top';
       // overlay.el += el2;
          el2.className += ' vjs-overlay-center';
          el2.innerHTML = '<iframe src=http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html></iframe>';
@@ -63,14 +64,14 @@
       closebtn.appendChild(closetext);
       closebtn.id = 'closeevent';
       closebtn.margin = 'top';
-      closediv.appendChild(closebtn);
+      //closediv.appendChild(closebtn);
       //closediv.appendChild(el2);
       
-     var parentdiv = document.createElement('div');
-     parentdiv.appendChild('closediv');
-     parentdiv.appendChild('el2');
+     //var parentdiv = document.createElement('div');
+     //parentdiv.appendChild('closediv');
+     //parentdiv.appendChild('el2');
       
-     // el2.appendChild(closebtn);
+     el2.appendChild(closebtn);
       
     // add the overlay to the player
     player.el().appendChild(el);
@@ -83,14 +84,14 @@
        if(ishidden) 
        {
          ishidden = false;
-        // player.el().removeChild(el2);
-         player.el().removeChild(parentdiv);
+        player.el().removeChild(el2);
+         //player.el().removeChild(parentdiv);
          player.play();
        }
        else
        {
-        // player.el().appendChild(el2);
-         player.el().appendChild(parentdiv);
+       player.el().appendChild(el2);
+        // player.el().appendChild(parentdiv);
          ishidden = true;
         //window.open ("raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html", "newwindow", height=100, width=400, top=0,left=0, toolbar="no", menubar="no", scrollbars="no", resizable="no",location="no",status="no") 
          player.pause();
