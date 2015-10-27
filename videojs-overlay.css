@@ -55,12 +55,11 @@
 }
 .vjs-overlay.vjs-overlay-center {
  display: table-cell;
- float: bottom;
+ background: white;
+ /*float: bottom;
  vertical-align:middle;
- /* background: white;
  width: 250;
  height: 300;
- 
  top: 50%;
  left: 50%;
  padding: 0px 0px 0px 0px; 
@@ -70,8 +69,8 @@
 
 .vjs-overlay.closediv {
 display: table-cell;
-float: top;
-/* background: white;
+background: white;
+/*float: top;
 width: 450;
 height: 350;
 top: 50%;
@@ -102,11 +101,9 @@ height: 100%;
 .vjs-overlay.div-parent
 {
 display: table;
-/* background: transparent; */
 position: fixed;
 width: 450; 
 height: 300;
 top: 0%;
 left: 30%;
-/* margin: -225px 0 0 -300px; */
 }
