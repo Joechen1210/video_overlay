@@ -70,6 +70,12 @@
           rowdiv2.className += ' row';
           rowdiv2.id = 'row2div';
           
+      var celldiv1 = document.createElement('div');
+          celldiv1.className = 'vjs-overlay';
+          celldiv1.className += ' cell';
+          celldiv1.id = 'cell1div';
+          rowdiv1.appendChild(celldiv1);
+          
       var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
           el2.className += ' vjs-overlay-center';
@@ -96,7 +102,7 @@
      //parentdiv.appendChild(closediv);
       //parentdiv.appendChild(el2);
         parentdiv.appendChild(rowdiv1);
-        //parentdiv.appendChild(rowdiv2);
+        parentdiv.appendChild(rowdiv2);
         
       var ishidden = false;
      el.onclick = function()
