@@ -98,17 +98,15 @@
       var closebtn = document.createElement('button');
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
-      closediv.appendChild(closebtn);
-        //rowdiv1.appendChild(closediv);
-        //rowdiv2.appendChild(el2);
-        rowdiv1.appendChild(celldiv1);
+      
+       // rowdiv1.appendChild(celldiv1);
         //rowdiv1.appendChild(closediv);
         rowdiv2.appendChild(el2);
         //rowdiv2.appendChild(celldiv2);
         
 
+        parentdiv.appendChild(closebtn);
         parentdiv.appendChild(rowdiv2);
-        parentdiv.appendChild(rowdiv1);
         //parentdiv.appendChild(closediv);
         //parentdiv.appendChild(el2);
         
