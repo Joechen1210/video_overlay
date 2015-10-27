@@ -110,7 +110,7 @@
      //parentdiv.appendChild(closediv);
       //parentdiv.appendChild(el2);
         parentdiv.appendChild(rowdiv1);
-        parentdiv.appendChild(rowdiv3);
+        //parentdiv.appendChild(rowdiv3);
         parentdiv.appendChild(rowdiv2);
         
       var ishidden = false;
