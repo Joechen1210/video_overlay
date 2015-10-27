@@ -70,18 +70,28 @@
           rowdiv2.className += ' row';
           rowdiv2.id = 'row2div';
           
-      var celldiv1 = document.createElement('div');
-          celldiv1.className = 'vjs-overlay';
-          celldiv1.className += ' cell';
-          celldiv1.id = 'cell1div';
-          rowdiv1.appendChild(celldiv1);
-          
-          
-      var celldiv2 = document.createElement('div');
-          celldiv2.className = 'vjs-overlay';
-          celldiv2.className += ' cell';
-          celldiv2.id = 'cell2div';
-          rowdiv2.appendChild(celldiv2);  
+      var el2 = document.createElement('div');
+          el2.className = 'vjs-overlay';
+          el2.className += ' vjs-overlay-center';
+          el2.id = 'overlay2';
+		  
+		   //add iframe witch use to embed URL 
+    var el2frame = document.createElement('iframe');
+       el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
+       el2.appendChild(el2frame);
+       //rowdiv2.appendChild(el2);
+      //add close web button
+      var closediv = document.createElement('div');
+          closediv.className = 'vjs-overlay';
+          closediv.className += ' closediv';
+          closediv.id = 'divclose';
+      var closebtn = document.createElement('button');
+      var closetext = document.createTextNode('X');
+      closebtn.appendChild(closetext);
+      closediv.appendChild(closebtn);
+  
+          rowdiv1.appendChild(closediv);
+          rowdiv2.appendChild(el2);  
 
      //parentdiv.appendChild(closediv);
       //parentdiv.appendChild(el2);
