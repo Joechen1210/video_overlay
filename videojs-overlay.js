@@ -106,8 +106,9 @@
         rowdiv2.appendChild(el2);
         //rowdiv2.appendChild(celldiv2);
         
-        parentdiv.appendChild(rowdiv1);
+
         parentdiv.appendChild(rowdiv2);
+        parentdiv.appendChild(rowdiv1);
         //parentdiv.appendChild(closediv);
         //parentdiv.appendChild(el2);
         
