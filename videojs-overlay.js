@@ -89,13 +89,10 @@
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
       closediv.appendChild(closebtn);
-  
-        rowdiv1.appendChild(closediv);
-        rowdiv2.appendChild(el2);
-          
+        //rowdiv1.appendChild(closediv);
+        //rowdiv2.appendChild(el2);
         //parentdiv.appendChild(rowdiv1);
         //parentdiv.appendChild(rowdiv2);
-        
         parentdiv.appendChild(closediv);
         
         
