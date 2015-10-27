@@ -58,6 +58,15 @@
           parentdiv.className += ' div-parent';
           parentdiv.id = 'divparent';
       
+      var rowdiv1 = document.createElement('div');
+          rowdiv1.className = 'vjs-overlay';
+          rowdiv1.className += ' row1';
+          rowdiv1.id = 'row1div';
+          
+      var rowdiv2 = document.createElement('div');
+          rowdiv2.className = 'vjs-overlay';
+          rowdiv2.className += ' row2';
+          rowdiv2,id = 'row2div';
       
       //add web site div
        var el2 = document.createElement('div');
@@ -69,6 +78,7 @@
     var el2frame = document.createElement('iframe');
        el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
        el2.appendChild(el2frame);
+       rowdiv2.appendChild(el2);
       //add close web button
       var closediv = document.createElement('div');
           closediv.className = 'vjs-overlay';
@@ -78,13 +88,14 @@
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
       closediv.appendChild(closebtn);
-      
-       //el2.innerHTML = 'new div';
-       //el2.appendChild(closebtn);
-       //el2.appendChild(el2frame);
-      parentdiv.appendChild(closediv);
-      parentdiv.appendChild(el2);
+      rowdv1.appendChild(closediv);
 
+
+      //parentdiv.appendChild(closediv);
+      //parentdiv.appendChild(el2);
+        parentdiv.appendChild(rowdv1);
+        parentdiv.appendChild(rowdiv2);
+        
       var ishidden = false;
      el.onclick = function()
      {
