@@ -82,7 +82,7 @@
        //el2.innerHTML = 'new div';
        //el2.appendChild(closebtn);
        //el2.appendChild(el2frame);
-      //parentdiv.appendChild(closediv);
+      parentdiv.appendChild(closediv);
       parentdiv.appendChild(el2);
 
       var ishidden = false;
@@ -106,7 +106,9 @@
      
          closebtn.onclick = function()
       {
-           player.el().removeChild(el2);
+           player.el().removeChild(parentdiv);
+           //player.el().removeChild(el2);
+           ishidden = false;
            player.play();
        }
       
