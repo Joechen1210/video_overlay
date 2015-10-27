@@ -56,6 +56,7 @@
 .vjs-overlay.vjs-overlay-center {
  display: table-cell;
  background: yellow;
+ margin: 15px;
  /*float: bottom;
  vertical-align:middle;
  width: 250;
@@ -70,6 +71,7 @@
 .vjs-overlay.closediv {
 display: table-cell;
 background: blue;
+margin: 15px;
 /*float: top;
 width: 450;
 height: 350;
