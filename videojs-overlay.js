@@ -60,7 +60,7 @@
       
       //add web site div
           
-         var rowdiv1 = document.createElement('div');
+      var rowdiv1 = document.createElement('div');
           rowdiv1.className = 'vjs-overlay';
           rowdiv1.className += ' row';
           rowdiv1.id = 'row1div';
@@ -78,7 +78,7 @@
           
           
       var celldiv2 = document.createElement('div');
-          cellldiv2.className = 'vjs-overlay';
+          celldiv2.className = 'vjs-overlay';
           celldiv2.className += ' cell';
           celldiv2.id = 'cell2div';
           rowdiv2.appendChild(celldiv2);  
