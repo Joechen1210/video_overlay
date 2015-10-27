@@ -97,7 +97,7 @@
         //parentdiv.appendChild(rowdiv2);
         
         parentdiv.appendChild(closediv);
-        //parentdiv.appendChild(el2);
+        
         
       var ishidden = false;
      el.onclick = function()
