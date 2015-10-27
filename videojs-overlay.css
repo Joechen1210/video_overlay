@@ -67,7 +67,7 @@
 }
 
 .vjs-overlay.closediv {
-display: table-row;
+display: table-cell;
 float: right;
 background: white;
 /*position: absolute;
