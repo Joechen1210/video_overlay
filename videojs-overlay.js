@@ -71,12 +71,15 @@
       var celldiv1 = document.createElement('div');
           celldiv1.className = 'vjs-overlay';
           celldiv1.className += ' cell';
-          celldiv1.id = 'row1div';
+          celldiv1.id = 'cell1div';
+          rowdiv1.appendChild(celldiv1);
+          
           
       var celldiv2 = document.createElement('div');
           cellldiv2.className = 'vjs-overlay';
           celldiv2.className += ' cell';
-          celldiv2.id = 'row2div';
+          celldiv2.id = 'cell2div';
+          rowdiv2.appendChild(celldiv2);
       
       //add web site div
        var el2 = document.createElement('div');
