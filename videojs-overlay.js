@@ -82,7 +82,7 @@
        //el2.innerHTML = 'new div';
        //el2.appendChild(closebtn);
        //el2.appendChild(el2frame);
-      parentdiv.appendChild(closediv);
+      //parentdiv.appendChild(closediv);
       parentdiv.appendChild(el2);
 
       var ishidden = false;
