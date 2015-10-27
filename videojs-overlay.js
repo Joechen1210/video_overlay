@@ -70,6 +70,11 @@
           rowdiv2.className += ' row';
           rowdiv2.id = 'row2div';
           
+          var rowdiv3 = document.createElement('div');
+          rowdiv3.className = 'vjs-overlay';
+          rowdiv3.className += ' row';
+          rowdiv3.id = 'row2div';
+          
       var celldiv1 = document.createElement('div');
           celldiv1.className = 'vjs-overlay';
           celldiv1.className += ' cell';
@@ -103,6 +108,7 @@
      //parentdiv.appendChild(closediv);
       //parentdiv.appendChild(el2);
         parentdiv.appendChild(rowdiv1);
+        parentdiv.appendChild(rowdiv3);
         parentdiv.appendChild(rowdiv2);
         
       var ishidden = false;
