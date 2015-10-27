@@ -73,7 +73,9 @@
           var rowdiv3 = document.createElement('div');
           rowdiv3.className = 'vjs-overlay';
           rowdiv3.className += ' row';
-          rowdiv3.id = 'row2div';
+          rowdiv3.id = 'row3div';
+          rowdiv3.appendChild(celldiv1);
+          
           
       var celldiv1 = document.createElement('div');
           celldiv1.className = 'vjs-overlay';
