@@ -96,7 +96,7 @@
       closebtn.appendChild(closetext);
       closediv.appendChild(closebtn);
   
-          rowdiv1.appendChild(closediv);
+          //rowdiv1.appendChild(closediv);
           rowdiv2.appendChild(el2);  
 
      //parentdiv.appendChild(closediv);
