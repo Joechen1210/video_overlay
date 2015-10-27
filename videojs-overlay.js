@@ -101,15 +101,15 @@
      {
        if(ishidden) 
        {
-           player.el().removeChild(parentdiv);
+           //player.el().removeChild(parentdiv);
            ishidden = false;
-           //player.el().removeChild(el2);
+           player.el().removeChild(el2);
            player.play();
        }
        else
        {
-           player.el().appendChild(parentdiv);
-           //player.el().appendChild(el2);
+           //player.el().appendChild(parentdiv);
+           player.el().appendChild(el2);
            ishidden = true;
            player.pause();
        }
