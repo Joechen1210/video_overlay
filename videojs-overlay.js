@@ -62,7 +62,7 @@
           
       var maindiv = document.createElement('div');
       	  maindiv.className = 'vjs-overlay';
-      	  maindiv.className = ' div-main';
+      	  maindiv.className += ' div-main';
           maindiv.id = 'divmain';
       
       //add web site div
@@ -103,7 +103,7 @@
       closebtn.appendChild(closetext);
       
         parentdiv.appendChild(closebtn);
-       // maindiv.appendChild(headerdiv);
+        maindiv.appendChild(headerdiv);
         maindiv.appendChild(bodydiv);
         maindiv.appendChild(footerdiv);
         parentdiv.appendChild(maindiv);
