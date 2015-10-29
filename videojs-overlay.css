@@ -54,7 +54,6 @@
   right: 5px;
 }
 .vjs-overlay.vjs-overlay-center {
- display: table-cell;
  background: yellow;
  margin: 15px;
  /*float: bottom;
@@ -98,24 +97,6 @@ z-index: 100; */
     transition: .15s;
 }
 
-
-/*.vjs-overlay.frame 
-{
-background: white;
-width: 390px;
-height: 100%;
-}*/
-.vjs-overlay.row 
-{
-  display: table-row;
-  background: white;
-}
-
-.vjs-overlay.cell
-{
-  display: table-cell;
-  background: white;
-}
 
 .vjs-overlay.model-header 
 {
