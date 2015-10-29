@@ -102,16 +102,19 @@ z-index: 100; */
 .vjs-overlay.model-header 
 {
  dispaly: block; 
+ border-style:solid;
 }
 
 .vjs-overlay.model-body
 {
  dispaly: block; 
+ border-style:solid;
 }
 
 .vjs-overlay.model-footer 
 {
  dispaly: block; 
+ border-style:solid;
 }
 
 
