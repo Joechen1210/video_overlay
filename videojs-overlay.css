@@ -100,17 +100,17 @@ z-index: 100; */
 
 .vjs-overlay.model-header 
 {
-  
+ dispaly: block; 
 }
 
 .vjs-overlay.model-body
 {
- 
+ dispaly: block; 
 }
 
 .vjs-overlay.model-footer 
 {
- 
+ dispaly: block; 
 }
 
 
