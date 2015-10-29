@@ -104,9 +104,6 @@ z-index: 100; */
 
 .vjs-overlay.model-header 
 {
-    box-sizing:border-box;
-   -moz-box-sizing:border-box; /* Firefox */
-    -webkit-box-sizing:border-box; /* Safari */
     padding: 15px 15px 10px 15px;
     height: 50px;
     background-color: white;
