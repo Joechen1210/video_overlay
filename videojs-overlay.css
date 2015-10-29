@@ -103,24 +103,26 @@ z-index: 100; */
 {
  dispaly: block; 
  border-style:solid;
+ border-color: yellow;
 }
 
 .vjs-overlay.model-body
 {
  dispaly: block; 
  border-style:solid;
+ border-color: red;
 }
 
 .vjs-overlay.model-footer 
 {
  dispaly: block; 
  border-style:solid;
+ border-color: white;
 }
 
 
 .vjs-overlay.div-parent
 {
-    background-color: white;
     top: 0;
     right: 0;
     bottom: 0;
