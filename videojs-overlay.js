@@ -85,11 +85,14 @@
        el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
        el2.appendChild(el2frame);
       //add close web button
-      var closediv = document.createElement('div');
-          closediv.className = 'vjs-overlay';
-          closediv.className += ' closediv';
-          closediv.id = 'divclose';
+      //var closediv = document.createElement('div');
+          //closediv.className = 'vjs-overlay';
+          //closediv.className += ' closediv';
+          //closediv.id = 'divclose';
       var closebtn = document.createElement('button');
+          closebtn.className = 'vjs-overlay';
+          closebtn.className += ' closebtn';
+          closebtn.id = 'btnclose';
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
       
