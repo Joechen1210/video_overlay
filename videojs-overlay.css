@@ -104,15 +104,21 @@ z-index: 100; */
 
 .vjs-overlay.model-header 
 {
+    box-sizing:border-box;
+   -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
     top:0;
     padding: 15px 15px 10px 15px;
     height: 50px;
     color: #444;
-
+     float: top;
 }
 
 .vjs-overlay.model-body
 {
+    box-sizing:border-box;
+   -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
     background-color: white;
     padding: 15px;
     width: 100%;
@@ -120,14 +126,19 @@ z-index: 100; */
     bottom: 58px;
     overflow-y: scroll;
     font-size: .9em;
+      float: top;
 }
 
 .vjs-overlay.model-footer 
 {
+    box-sizing:border-box;
+   -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
     bottom: 0;
     padding: 8px;
     text-align: center;
     width: 100%;
+    float: top;
 }
 
 
