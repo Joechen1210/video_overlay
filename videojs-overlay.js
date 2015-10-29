@@ -57,6 +57,11 @@
           parentdiv.className = 'vjs-overlay';
           parentdiv.className += ' div-parent';
           parentdiv.id = 'divparent';
+          
+      var maindiv = document.createElement('div');
+      	  maindiv.className = 'vjs-overlay';
+      	  maindiv.className = ' div-main';
+          maindiv.id = 'divmain';
       
       //add web site div
      var headerdiv = document.createElement('div');
@@ -98,17 +103,11 @@
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
       
-       // rowdiv1.appendChild(celldiv1);
-        //rowdiv1.appendChild(closediv);
-        //rowdiv2.appendChild(el2);
-        //rowdiv2.appendChild(celldiv2);
         parentdiv.appendChild(closebtn);
-        parentdiv.appendChild(headerdiv);
-        parentdiv.appendChild(bodydiv);
-        parentdiv.appendChild(footerdiv);
-        //parentdiv.appendChild(rowdiv2);
-        //parentdiv.appendChild(closediv);
-        //parentdiv.appendChild(el2);
+        maindiv.appendChild(headerdiv);
+        maindiv.appendChild(bodydiv);
+        maindiv.appendChild(footerdiv);
+        parentdiv.appendChild(maindiv);
         
       var ishidden = false;
      el.onclick = function()
