@@ -73,14 +73,14 @@
          headerdiv.innerHTML = "<h1>This is header</h1>";
          
      var bodydiv = document.createElement('div');
-     	 bodydiv.ClassName = 'vjs-overlay';
-         bodydiv.ClassName += ' model-body';
+     	 bodydiv.className = 'vjs-overlay';
+         bodydiv.className += ' model-body';
          bodydiv.id = 'divbody';
          bodydiv.innerHTML = "<h1>This is body</h1>";
          
     var footerdiv = document.createElement('div');
-     	footerdiv.ClassName = 'vjs-overlay';
-     	footerdiv.ClassName += ' model-footer';
+     	footerdiv.className = 'vjs-overlay';
+     	footerdiv.className += ' model-footer';
      	footerdiv.id = 'divfooter';
      	footerdiv.innerHTML = "<h1>This is footer</h1>";
           
