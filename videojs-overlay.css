@@ -90,7 +90,6 @@ z-index: 100; */
     background-color: transparent;
     font-size: 1em;
     padding: 0;
-    color: #444;
     pointer-events: auto;
     -o-transition: .15s;
     transition: .15s;
