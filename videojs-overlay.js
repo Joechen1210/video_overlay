@@ -84,7 +84,6 @@
     var el2frame = document.createElement('iframe');
        el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
        el2.appendChild(el2frame);
-       //rowdiv2.appendChild(el2);
       //add close web button
       var closediv = document.createElement('div');
           closediv.className = 'vjs-overlay';
@@ -98,11 +97,10 @@
         //rowdiv1.appendChild(closediv);
         rowdiv2.appendChild(el2);
         //rowdiv2.appendChild(celldiv2);
-        
         parentdiv.appendChild(closebtn);
-        //parentdiv.appendChild(headerdiv);
-        //parentdiv.appendChild(bodydiv);
-        //parentdiv.appendChild(footerdiv);
+        parentdiv.appendChild(headerdiv);
+        parentdiv.appendChild(bodydiv);
+        parentdiv.appendChild(footerdiv);
         //parentdiv.appendChild(rowdiv2);
         //parentdiv.appendChild(closediv);
         //parentdiv.appendChild(el2);
