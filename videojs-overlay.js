@@ -58,7 +58,6 @@
           parentdiv.className += ' div-parent';
           parentdiv.id = 'divparent';
          // parentdiv.setAttribute("role", "dialog");
-          parentdiv.role = 'dialog';
           
       var maindiv = document.createElement('div');
       	  maindiv.className = 'vjs-overlay';
