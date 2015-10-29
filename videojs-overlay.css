@@ -100,7 +100,6 @@ z-index: 100; */
 
 .vjs-overlay.model-header 
 {
- dispaly: block; 
  border-style:solid;
  background-color: #eee;
 
@@ -108,7 +107,6 @@ z-index: 100; */
 
 .vjs-overlay.model-body
 {
- dispaly: block; 
  border-style:solid;
  background-color: white;
  
@@ -116,7 +114,6 @@ z-index: 100; */
 
 .vjs-overlay.model-footer 
 {
- dispaly: block; 
  border-style:solid;
 background-color: #eee;
 }
