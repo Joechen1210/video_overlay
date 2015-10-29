@@ -109,7 +109,8 @@ z-index: 100; */
     -webkit-box-sizing:border-box; /* Safari */
     padding: 15px 15px 10px 15px;
     height: 50px;
-    background-color: #444;
+    background-color: white;
+    position: absolute;
 }
 
 .vjs-overlay.model-body
