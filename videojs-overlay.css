@@ -99,7 +99,7 @@ z-index: 100; */
 
 .vjs-overlay.div-main 
 {
-  color: #444
+ background-color: #444;
 }
 
 .vjs-overlay.model-header 
