@@ -72,7 +72,7 @@
          
     var footerdiv = document.createElement('div');
      	footerdiv.ClassName = 'vjs-overlay';
-     	footerdiv.ClassName = ' model-footer';
+     	footerdiv.ClassName += ' model-footer';
      	footerdiv.id = 'divfooter';
           
      var el2 = document.createElement('div');
