@@ -97,6 +97,10 @@ z-index: 100; */
     transition: .15s;
 }
 
+.vjs-overlay.div-main 
+{
+  color: #444
+}
 
 .vjs-overlay.model-header 
 {
