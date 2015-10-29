@@ -98,8 +98,8 @@ z-index: 100; */
 
 .vjs-overlay.div-main 
 {
- display: inline-block;
- background-color: white;
+   box-sizing: border-box;
+   display: block;
 }
 
 .vjs-overlay.model-header 
