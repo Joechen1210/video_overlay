@@ -104,37 +104,19 @@ height: 100%;
   background: white;
 }
 
-.vjs-overlay.model-header {
-   float: top;
-   background-color: blue;
-   display: block;
-   padding: 15px 15px 10px 15px;
-   height: 50px;
-   color: #444;
+.vjs-overlay.model-header 
+{
+  
 }
 
-.vjs-overlay.model-body {
-  float: center;
-  display: block;
-  background-color: white;
-    padding: 15px;
-    position: absolute;
-    width: 100%;
-    top: 50px;
-    bottom: 58px;
-    overflow-y: scroll;
-    font-size: .9em;
+.vjs-overlay.model-body
+{
+ 
 }
 
-.vjs-overlay.model-footer {
-  float: bottom;
-  display: block;
-  background-color: red;
-  position: absolute;
-    bottom: 0;
-    padding: 8px;
-    text-align: center;
-    width: 100%;
+.vjs-overlay.model-footer 
+{
+ 
 }
 
 
