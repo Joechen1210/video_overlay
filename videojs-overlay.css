@@ -84,14 +84,6 @@ z-index: 100; */
 {
     float: right;
     margin: 0 0 0 10px;
-    cursor: pointer;
-    -webkit-appearance: none;
-    border: none;
-    background-color: yellow;
-    /*display: block;
-    font-size: 1em;
-    color: #444;*/
-    pointer-events: auto;
 }
 
 
