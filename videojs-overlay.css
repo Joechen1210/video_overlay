@@ -81,7 +81,6 @@ z-index: 100; */
 
 .vjs-overlay.closebtn
 {
-   float: right;
    text-align: right;
     margin: 0 0 0 10px;
     cursor: pointer;
@@ -114,7 +113,7 @@ z-index: 100; */
 
 .vjs-overlay.model-body
 {
-  display: block;
+    display: block;
     box-sizing:border-box;
    -moz-box-sizing:border-box; /* Firefox */
     -webkit-box-sizing:border-box; /* Safari */
