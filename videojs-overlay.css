@@ -110,7 +110,7 @@ z-index: 100; */
     padding: 15px 15px 10px 15px;
     height: 50px;
     color: #444;
-    float: top;
+    float: bottom;
 }
 
 .vjs-overlay.model-body
@@ -133,7 +133,6 @@ z-index: 100; */
     padding: 8px;
     text-align: center;
     width: 100%;
-    float: top;
 }
 
 
