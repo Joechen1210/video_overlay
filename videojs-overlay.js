@@ -59,28 +59,23 @@
           parentdiv.id = 'divparent';
       
       //add web site div
+     var headerdiv = document.createElement('div');
+         headerdiv.className = 'vjs-overlay';
+         headerdiv.className += ' model-header';
+         headerdiv.id = 'divheader';
+         
+     var bodydiv = document.createElement('div');
+     	 bodydiv.ClassName = 'vjs-overlay';
+         bodydiv.ClassName += ' model-body';
+         bodydiv.id = 'divbody';
+         bodydiv.innerHTML = "<h1>Hello World</h1>";
+         
+    var footerdiv = document.createElement('div');
+     	footerdiv.ClassName = 'vjs-overlay';
+     	footerdiv.ClassName = ' model-footer';
+     	footerdiv.id = 'divfooter';
           
-      var rowdiv1 = document.createElement('div');
-          rowdiv1.className = 'vjs-overlay';
-          rowdiv1.className += ' row';
-          rowdiv1.id = 'row1div';
-          
-      var rowdiv2 = document.createElement('div');
-          rowdiv2.className = 'vjs-overlay';
-          rowdiv2.className += ' row';
-          rowdiv2.id = 'row2div';
-          
-      var celldiv1 = document.createElement('div');
-          celldiv1.className = 'vjs-overlay';
-          celldiv1.className += ' cell';
-          celldiv1.id = 'cell1div';
-       
-      var celldiv2 = document.createElement('div');
-          celldiv2.className = 'vjs-overlay';
-          celldiv2.className += ' cell';
-          celldiv2.id = 'cell2div';
-          
-      var el2 = document.createElement('div');
+     var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
           el2.className += ' vjs-overlay-center';
           el2.id = 'overlay2';
@@ -104,9 +99,11 @@
         rowdiv2.appendChild(el2);
         //rowdiv2.appendChild(celldiv2);
         
-
         parentdiv.appendChild(closebtn);
-        parentdiv.appendChild(rowdiv2);
+        parentdiv.appendChild(headerdiv);
+        parentdiv.appendChild(bodydiv);
+        parentdiv.appendChild(footerdiv);
+        //parentdiv.appendChild(rowdiv2);
         //parentdiv.appendChild(closediv);
         //parentdiv.appendChild(el2);
         
