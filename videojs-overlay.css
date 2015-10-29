@@ -124,6 +124,7 @@ background-color: #eee;
 
 .vjs-overlay.div-parent
 {
+    display: inline-block;
     top: 30%;
     left: 30%;
     max-width: 600px;
