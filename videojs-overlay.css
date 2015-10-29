@@ -80,6 +80,21 @@ padding: 0px 0px 0px 0px;
 z-index: 100; */
 }
 
+.vjs-overlay.closebtn
+{
+    float: right;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    color: #444;
+    pointer-events: auto;
+    transition: .15s;
+}
+
+
 /*.vjs-overlay.frame 
 {
 background: white;
