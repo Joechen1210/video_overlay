@@ -103,9 +103,9 @@
       closebtn.appendChild(closetext);
       
         parentdiv.appendChild(closebtn);
-        maindiv.appendChild(headerdiv);
+        //maindiv.appendChild(headerdiv);
         maindiv.appendChild(bodydiv);
-        maindiv.appendChild(footerdiv);
+        //maindiv.appendChild(footerdiv);
         parentdiv.appendChild(maindiv);
         
       var ishidden = false;
