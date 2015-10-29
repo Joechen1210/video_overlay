@@ -98,14 +98,14 @@ height: 100%;
   background: white;
 }
 
-.vjs-overlay.headerdiv {
+.vjs-overlay.model-header {
    display: block;
    padding: 15px 15px 10px 15px;
     height: 50px;
     color: #444;
 }
 
-.vjs-overlay.bodydiv {
+.vjs-overlay.model-body {
   display: block;
   background-color: white;
     padding: 15px;
@@ -117,7 +117,7 @@ height: 100%;
     font-size: .9em;
 }
 
-.vjs-overlay.footerdiv {
+.vjs-overlay.model-footer {
   display: block;
   position: absolute;
     bottom: 0;
