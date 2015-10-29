@@ -100,9 +100,9 @@
         //rowdiv2.appendChild(celldiv2);
         
         parentdiv.appendChild(closebtn);
-        parentdiv.appendChild(headerdiv);
-        parentdiv.appendChild(bodydiv);
-        parentdiv.appendChild(footerdiv);
+        //parentdiv.appendChild(headerdiv);
+        //parentdiv.appendChild(bodydiv);
+        //parentdiv.appendChild(footerdiv);
         //parentdiv.appendChild(rowdiv2);
         //parentdiv.appendChild(closediv);
         //parentdiv.appendChild(el2);
