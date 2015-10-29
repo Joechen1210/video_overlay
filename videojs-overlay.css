@@ -129,12 +129,10 @@ height: 100%;
 
 .vjs-overlay.div-parent
 {
-background-color: #eee;
+background-color: white;
 position: fixed;
 max-width: 600px;
 max-height: 400px;
-width: 80%; 
-height: 60%;
 top: 30%;
 left: 30%;
 }
