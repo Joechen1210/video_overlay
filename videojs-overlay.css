@@ -130,19 +130,10 @@ height: 100%;
 
 .vjs-overlay.div-parent
 {
-    border-radius: 2px;
-    width: 60%;
-    max-width: 600px;
-    height: 75%;
-    max-height: 400px;
-    margin: 0 auto;
-    background-color: #eee;
-    margin: auto;
-    position: absolute;
-    border: 1px solid #ddd;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
+display: table;
+position: fixed;
+width: 100%; 
+height: 100%;
+top: 30%;
+left: 30%;
 }
