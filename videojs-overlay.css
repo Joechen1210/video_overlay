@@ -100,22 +100,31 @@ z-index: 100; */
 
 .vjs-overlay.model-header 
 {
- border-style:solid;
- background-color: #eee;
+    padding: 15px 15px 10px 15px;
+    height: 50px;
+    color: #444;
 
 }
 
 .vjs-overlay.model-body
 {
- border-style:solid;
- background-color: white;
- 
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    bottom: 58px;
+    overflow-y: scroll;
+    font-size: .9em;
 }
 
 .vjs-overlay.model-footer 
 {
- border-style:solid;
-background-color: #eee;
+    position: absolute;
+    bottom: 0;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
 }
 
 
