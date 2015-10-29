@@ -111,7 +111,6 @@ z-index: 100; */
 {
     background-color: white;
     padding: 15px;
-    position: absolute;
     width: 100%;
     top: 50px;
     bottom: 58px;
@@ -121,7 +120,6 @@ z-index: 100; */
 
 .vjs-overlay.model-footer 
 {
-    position: absolute;
     bottom: 0;
     padding: 8px;
     text-align: center;
