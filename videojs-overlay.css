@@ -88,7 +88,7 @@ z-index: 100; */
     cursor: pointer;
     /*-webkit-appearance: none;
     border: none;*/
-    background-color: transparent;
+    background-color: yellow;
     font-size: 1em;
     color: #444;
     pointer-events: auto;
