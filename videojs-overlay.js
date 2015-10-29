@@ -63,17 +63,19 @@
          headerdiv.className = 'vjs-overlay';
          headerdiv.className += ' model-header';
          headerdiv.id = 'divheader';
+         headerdiv.innerHTML = "<h1>This is header</h1>";
          
      var bodydiv = document.createElement('div');
      	 bodydiv.ClassName = 'vjs-overlay';
          bodydiv.ClassName += ' model-body';
          bodydiv.id = 'divbody';
-         bodydiv.innerHTML = "<h1>Hello World</h1>";
+         bodydiv.innerHTML = "<h1>This is body</h1>";
          
     var footerdiv = document.createElement('div');
      	footerdiv.ClassName = 'vjs-overlay';
      	footerdiv.ClassName += ' model-footer';
      	footerdiv.id = 'divfooter';
+     	footerdiv.innerHTML = "<h1>This is footer</h1>";
           
      var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
@@ -100,10 +102,10 @@
         //rowdiv1.appendChild(closediv);
         //rowdiv2.appendChild(el2);
         //rowdiv2.appendChild(celldiv2);
-        parentdiv.appendChild(headerdiv);
         parentdiv.appendChild(closebtn);
-        //parentdiv.appendChild(bodydiv);
-        //parentdiv.appendChild(footerdiv);
+        parentdiv.appendChild(headerdiv);
+        parentdiv.appendChild(bodydiv);
+        parentdiv.appendChild(footerdiv);
         //parentdiv.appendChild(rowdiv2);
         //parentdiv.appendChild(closediv);
         //parentdiv.appendChild(el2);
