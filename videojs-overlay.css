@@ -120,24 +120,33 @@ z-index: 100; */
 
 .vjs-overlay.model-body
 {
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(255, 255, 255);
+    bottom: 58px;
+    box-sizing: border-box;
     display: block;
-    box-sizing:border-box;
-   -moz-box-sizing:border-box; /* Firefox */
-    -webkit-box-sizing:border-box; /* Safari */
-    background-color: white;
-    padding: 15px;
-    width: 100%;
+    font-family: proxima-nova, Arial, Helvetica, sans-serif;
+    font-size: 14.4px;
+    font-weight: normal;
+    height: 290px;
     overflow-y: scroll;
-    font-size: .9em;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    position: absolute;
+    top: 50px;
+    width: 598px;
 }
 
 .vjs-overlay.model-footer 
 {
-    box-sizing:border-box;
-   -moz-box-sizing:border-box; /* Firefox */
-    -webkit-box-sizing:border-box; /* Safari */
-    padding: 8px;
-    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    font-family: proxima-nova, Arial, Helvetica, sans-serif;
+    font-size: 14.4px;
+    font-weight: normal;
 }
 
 
