@@ -103,8 +103,8 @@
       closebtn.appendChild(closetext);
       
         parentdiv.appendChild(closebtn);
-        maindiv.appendChild(headerdiv);
-        //maindiv.appendChild(bodydiv);
+        //maindiv.appendChild(headerdiv);
+        maindiv.appendChild(bodydiv);
        // maindiv.appendChild(footerdiv);
         parentdiv.appendChild(maindiv);
         
