@@ -127,7 +127,7 @@
        }
      }
      
-         closebtn.onclick = function()
+        closebtn.onmouseup = function()
       {
            player.el().removeChild(parentdiv);
            //player.el().removeChild(el2);
