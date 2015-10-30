@@ -115,17 +115,15 @@
     bottom: 58px;
     box-sizing: border-box;
     display: block;
-    max-height: 300px;
-    overflow-y: scroll;
+    height: 300px;
+    overflow: auto;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
     position: absolute;
     top: 50px;
-    max-width: 550px;
-    width: 90%;
-    height: 70%;
+    width: 550px;
 }
 
 .vjs-overlay.model-footer 
