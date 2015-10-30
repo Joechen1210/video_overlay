@@ -86,6 +86,14 @@
     display: block;
 }
 
+.vjs-overlay.iframe
+{
+   border = 0; 
+   width: 100%; 
+   height: 100%;
+  
+}
+
 .vjs-overlay.div-main 
 {
    float: left;
@@ -94,6 +102,7 @@
    box-sizing: border-box;
    display: block;
    border: 10px;
+   overflow-y: scroll;
 }
 
 .vjs-overlay.model-header 
