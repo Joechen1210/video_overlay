@@ -87,8 +87,8 @@
    //add iframe witch use to embed URL 
     var el2frame = document.createElement('iframe');
         el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
-        el2frame.className = 'vjs-overlay';
-        el2frame.className += ' iframe';
+        //el2frame.className = 'vjs-overlay';
+        //el2frame.className += ' iframe';
         bodydiv.appendChild(el2frame);
        
        
