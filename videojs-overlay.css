@@ -93,6 +93,7 @@ z-index: 100; */
     color: #444;
     pointer-events: auto;
     transition: .15s;
+    display: fixed;
 }
 
 .vjs-overlay.div-main 
@@ -147,43 +148,18 @@ z-index: 100; */
 
 .vjs-overlay.div-parent
 {
-background-color: rgb(238, 238, 238);
-border-bottom-color: rgb(221, 221, 221);
-border-bottom-left-radius: 2px;
-border-bottom-right-radius: 2px;
-border-bottom-style: solid;
-border-bottom-width: 1px;
-border-image-outset: 0px;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(221, 221, 221);
-border-left-style: solid;
-border-left-width: 1px;
-border-right-color: rgb(221, 221, 221);
-border-right-style: solid;
-border-right-width: 1px;
-border-top-color: rgb(221, 221, 221);
-border-top-left-radius: 2px;
-border-top-right-radius: 2px;
-border-top-style: solid;
-border-top-width: 1px;
-bottom: 0px;
-box-sizing: border-box;
-display: block;
-height: 400px;
-left: 0px;
-margin-bottom: 177.5px;
-margin-left: 221px;
-margin-right: 221px;
-margin-top: 177.5px;
-max-height: 400px;
-max-width: 600px;
-overflow-x: hidden;
-overflow-y: hidden;
-position: absolute;
-right: 0px;
-top: 0px;
-width: 600px;
+    border-radius: 2px;
+    max-width: 600px;
+    height: 75%;
+    max-height: 400px;
+    background-color: #eee;
+    margin: auto;
+    position: absolute;
+    border: 1px solid #ddd;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    box-sizing: border-box;
 }
