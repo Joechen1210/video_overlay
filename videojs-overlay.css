@@ -85,7 +85,7 @@
 
 .vjs-overlay.div-main 
 {
-   float: right;
+   float: left;
    background-color: white;
    box-sizing: border-box;
    display: block;
@@ -131,7 +131,6 @@
     box-sizing: border-box;
     display: block;
     border: 10px;
-    text-align: center;
 }
 
 
@@ -151,5 +150,4 @@
     left: 0;
     overflow: hidden;
     box-sizing: border-box;
-    text-align: right;
 }
