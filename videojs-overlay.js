@@ -102,7 +102,7 @@
       
         parentdiv.appendChild(closebtn);
         maindiv.appendChild(headerdiv);
-        maindiv.appendChild(el2frame);
+        maindiv.appendChild(bodydiv);
         //maindiv.appendChild(footerdiv);
         parentdiv.appendChild(maindiv);
         
