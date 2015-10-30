@@ -100,7 +100,6 @@
 {
    font-weight: normal;
    box-sizing: border-box;
-   color: rgb(68, 68, 68);
    display: block;
    width: 80%;
    height: 50px;
@@ -124,7 +123,7 @@
     padding-top: 15px;
     position: absolute;
     top: 50px;
-    width: 598px;
+    width: 100%;
 }
 
 .vjs-overlay.model-footer 
