@@ -95,7 +95,7 @@ z-index: 100; */
     display: block;
 }
 
-.vjs-overlay.div-main 
+.div-main 
 {
    float: right;
    background-color: white;
@@ -134,7 +134,7 @@ z-index: 100; */
     width: 598px;
 }
 
-.vjs-overlay.model-footer 
+.model-footer 
 {
     position: absolute;
     bottom: 0;
@@ -147,7 +147,7 @@ z-index: 100; */
 }
 
 
-.vjs-overlay.div-parent
+.div-parent
 {
     border-radius: 2px;
     max-width: 600px;
