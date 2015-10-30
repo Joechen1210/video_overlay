@@ -102,8 +102,9 @@
           closebtn.id = 'btnclose';
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
+      headerdiv.appendChild(closebtn);
       
-        parentdiv.appendChild(closebtn);
+        //parentdiv.appendChild(closebtn);
         maindiv.appendChild(headerdiv);
         //maindiv.appendChild(bodydiv);
         //maindiv.appendChild(footerdiv);
