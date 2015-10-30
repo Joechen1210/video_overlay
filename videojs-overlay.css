@@ -97,6 +97,8 @@ z-index: 100; */
 
 .vjs-overlay.div-main 
 {
+   float: right;
+   background-color: white;
    box-sizing: border-box;
    display: block;
    border: 10px;
