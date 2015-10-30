@@ -77,8 +77,8 @@
      	 bodydiv.className = 'vjs-overlay';
          bodydiv.className += ' model-body';
          bodydiv.id = 'divbody';
-        // bodydiv.innerHTML = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
-         bodydiv.innerHTML = '<h2>HelloWorld</h2>';
+        bodydiv.innerHTML = "http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html";
+        // bodydiv.innerHTML = '<h2>HelloWorld</h2>';
     // var el2 = document.createElement('div');
       //    el2.className = 'vjs-overlay';
         //  el2.className += ' vjs-overlay-center';
@@ -104,7 +104,7 @@
       
         parentdiv.appendChild(closebtn);
         maindiv.appendChild(headerdiv);
-       // maindiv.appendChild(bodydiv);
+        maindiv.appendChild(bodydiv);
         //maindiv.appendChild(footerdiv);
         parentdiv.appendChild(maindiv);
         
