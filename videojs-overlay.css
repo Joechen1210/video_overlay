@@ -72,6 +72,8 @@
     float: right;
     position: relative;
     margin: 0 0 0 10px;
+    max-width: 10px;
+    max-height: 10px;
     cursor: pointer;
     -webkit-appearance: none;
     border: none;
@@ -139,6 +141,7 @@
 .vjs-overlay.div-parent
 {
     border-radius: 2px;
+    width:60%;
     max-width: 600px;
     height: 75%;
     max-height: 400px;
