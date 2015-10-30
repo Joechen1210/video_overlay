@@ -71,7 +71,7 @@
          headerdiv.className = 'vjs-overlay';
          headerdiv.className += ' model-header';
          headerdiv.id = 'divheader';
-         headerdiv.innerHTML = '<h3>Product Information</h3>';
+         headerdiv.innerHTML = "<h3>Product Information</h3>";
          
      var bodydiv = document.createElement('div');
      	 bodydiv.className = 'vjs-overlay';
