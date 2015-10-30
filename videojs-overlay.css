@@ -94,7 +94,6 @@
    box-sizing: border-box;
    display: block;
    border: 10px;
-   overflow-y: scroll;
 }
 
 .vjs-overlay.model-header 
