@@ -136,12 +136,13 @@ z-index: 100; */
 
 .vjs-overlay.model-footer 
 {
-    -webkit-font-smoothing: antialiased;
-    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box
     display: block;
-    font-family: proxima-nova, Arial, Helvetica, sans-serif;
-    font-size: 14.4px;
-    font-weight: normal;
 }
 
 
