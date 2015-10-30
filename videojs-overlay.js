@@ -58,15 +58,13 @@
           parentdiv.className += ' div-parent';
           //parentdiv.className = 'div-parent';
           parentdiv.id = 'divparent';
-         // parentdiv.setAttribute("role", "dialog");
-          parentdiv.role = 'dialog';
+          //parentdiv.role = 'dialog';
          // parentdiv.appendChild('maindiv');
           
       var maindiv = document.createElement('div');
       	  maindiv.className = 'vjs-overlay';
       	  maindiv.className += ' div-main';
-      	  //maindiv.className = 'div-main';
-          maindiv.id = 'divmain';
+      	  maindiv.id = 'divmain';
       
       //add web site div
      var headerdiv = document.createElement('div');
@@ -84,7 +82,6 @@
     var footerdiv = document.createElement('div');
      	footerdiv.className = 'vjs-overlay';
      	footerdiv.className += ' model-footer';
-     	//footerdiv.className = 'model-footer';
      	footerdiv.id = 'divfooter';
      	footerdiv.innerHTML = "<button>test</button>";
           
@@ -107,10 +104,10 @@
       closebtn.appendChild(closetext);
       //headerdiv.appendChild(closebtn);
       
-       // parentdiv.appendChild(closebtn);
+        parentdiv.appendChild(closebtn);
         //maindiv.appendChild(headerdiv);
         //maindiv.appendChild(bodydiv);
-        maindiv.appendChild(footerdiv);
+        //maindiv.appendChild(footerdiv);
         parentdiv.appendChild(maindiv);
         
       var ishidden = false;
