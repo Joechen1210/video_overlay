@@ -99,6 +99,7 @@ z-index: 100; */
 
 .vjs-overlay.div-main 
 {
+   float: left;
    box-sizing: border-box;
    display: block;
    width: 100%;
