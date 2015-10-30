@@ -88,6 +88,7 @@
 
 .vjs-overlay.div-main 
 {
+   float: left;
    position: relative;
    background-color: white;
    box-sizing: border-box;
@@ -123,8 +124,6 @@
     position: absolute;
     top: 50px;
     width: 550px;
-    max-width: 600px;
-     max-height: 300px;
 }
 
 .vjs-overlay.model-footer 
