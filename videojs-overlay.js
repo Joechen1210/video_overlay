@@ -59,7 +59,7 @@
           parentdiv.id = 'divparent';
          // parentdiv.setAttribute("role", "dialog");
           parentdiv.role = 'dialog';
-          parentdiv.appendChild('maindiv');
+         // parentdiv.appendChild('maindiv');
           
       var maindiv = document.createElement('div');
       	  maindiv.className = 'vjs-overlay';
@@ -104,10 +104,10 @@
       closebtn.appendChild(closetext);
       
         parentdiv.appendChild(closebtn);
-        //maindiv.appendChild(headerdiv);
+        maindiv.appendChild(headerdiv);
         //maindiv.appendChild(bodydiv);
         //maindiv.appendChild(footerdiv);
-        //parentdiv.appendChild(maindiv);
+        parentdiv.appendChild(maindiv);
         
       var ishidden = false;
      el.onclick = function()
