@@ -67,18 +67,6 @@
  overflow: auto;
 }
 
-.vjs-overlay.closediv {
-background: blue;
-margin: 15px;
-/*float: top;
-width: 450;
-height: 350;
-top: 50%;
-left: 50%;
-padding: 0px 0px 0px 0px; 
-z-index: 100; */
-}
-
 .vjs-overlay.closebtn
 {
     float: right;
@@ -95,7 +83,7 @@ z-index: 100; */
     display: block;
 }
 
-.div-main 
+.vjs-overlay.div-main 
 {
    float: right;
    background-color: white;
@@ -134,7 +122,7 @@ z-index: 100; */
     width: 598px;
 }
 
-.model-footer 
+.vjs-overlay.model-footer 
 {
     position: absolute;
     bottom: 0;
@@ -147,7 +135,7 @@ z-index: 100; */
 }
 
 
-.div-parent
+.vjs-overlay.div-parent
 {
     border-radius: 2px;
     max-width: 600px;
