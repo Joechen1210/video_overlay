@@ -77,7 +77,7 @@
      	 bodydiv.className = 'vjs-overlay';
          bodydiv.className += ' model-body';
          bodydiv.id = 'divbody';
-         //bodydiv.innerHTML = "<h1>This is body</h1>";
+         bodydiv.innerHTML = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
           
     // var el2 = document.createElement('div');
       //    el2.className = 'vjs-overlay';
