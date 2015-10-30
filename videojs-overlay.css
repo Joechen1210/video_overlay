@@ -124,10 +124,10 @@
 
 .vjs-overlay.model-footer 
 {
+    top: auto;
     bottom: 0;
     padding: 8px;
     text-align: center;
-    width: 100%;
     box-sizing: border-box;
     display: block;
     border: 10px;
