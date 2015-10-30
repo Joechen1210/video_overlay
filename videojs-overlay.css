@@ -112,7 +112,7 @@
 
 .vjs-overlay.model-body
 {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     bottom: 58px;
     box-sizing: border-box;
     display: block;
