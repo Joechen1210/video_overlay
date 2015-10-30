@@ -83,7 +83,7 @@
      	footerdiv.className = 'vjs-overlay';
      	footerdiv.className += ' model-footer';
      	footerdiv.id = 'divfooter';
-     	footerdiv.innerHTML = "<h1>This is footer</h1>";
+     	footerdiv.innerHTML = "<button>test</button>";
           
      var el2 = document.createElement('div');
           el2.className = 'vjs-overlay';
