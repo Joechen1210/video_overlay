@@ -86,7 +86,6 @@ z-index: 100; */
     cursor: pointer;
     -webkit-appearance: none;
     border: none;
-  	box-sizing: border-box;
     background-color: transparent;
     font-size: 1em;
     padding: 15px;
