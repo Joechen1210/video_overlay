@@ -93,6 +93,7 @@ z-index: 100; */
     pointer-events: auto;
     transition: .15s;
     display: absolute;
+    right: 100%;
 }
 
 .vjs-overlay.div-main 
