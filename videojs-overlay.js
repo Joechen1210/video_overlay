@@ -108,7 +108,7 @@
         //maindiv.appendChild(headerdiv);
         //maindiv.appendChild(bodydiv);
         //maindiv.appendChild(footerdiv);
-        parentdiv.appendChild(maindiv);
+        //parentdiv.appendChild(maindiv);
         
       var ishidden = false;
      el.onclick = function()
