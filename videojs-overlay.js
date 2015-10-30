@@ -77,7 +77,7 @@
      	 bodydiv.className = 'vjs-overlay';
          bodydiv.className += ' model-body';
          bodydiv.id = 'divbody';
-       // bodydiv.innerHTML = "http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html";
+         bodydiv.innerHTML = "<iframe name='iframe1' id='iframe1' src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none;width: 100%; height: 100%;'></iframe>";
         // bodydiv.innerHTML = '<h2>HelloWorld</h2>';
     // var el2 = document.createElement('div');
       //    el2.className = 'vjs-overlay';
@@ -92,7 +92,7 @@
         el2frame.setAttribute("frameborder", "0");
         //el2frame.className = 'vjs-overlay';
         //el2frame.className += ' iframe';
-        bodydiv.appendChild(el2frame);
+        //bodydiv.appendChild(el2frame);
        
        
       //add close web button
