@@ -71,29 +71,25 @@
          headerdiv.className = 'vjs-overlay';
          headerdiv.className += ' model-header';
          headerdiv.id = 'divheader';
-         headerdiv.innerHTML = "<h3>Product Information</h3>";
+         //headerdiv.innerHTML = "<h3>Product Information</h3>";
          
      var bodydiv = document.createElement('div');
      	 bodydiv.className = 'vjs-overlay';
          bodydiv.className += ' model-body';
          bodydiv.id = 'divbody';
-         bodydiv.innerHTML = "<h1>This is body</h1>";
-         
-    var footerdiv = document.createElement('div');
-     	footerdiv.className = 'vjs-overlay';
-     	footerdiv.className += ' model-footer';
-     	footerdiv.id = 'divfooter';
-     	footerdiv.innerHTML = "<button>test</button>";
+         //bodydiv.innerHTML = "<h1>This is body</h1>";
           
-     var el2 = document.createElement('div');
-          el2.className = 'vjs-overlay';
-          el2.className += ' vjs-overlay-center';
-          el2.id = 'overlay2';
+    // var el2 = document.createElement('div');
+      //    el2.className = 'vjs-overlay';
+        //  el2.className += ' vjs-overlay-center';
+          //el2.id = 'overlay2';
 		 
    //add iframe witch use to embed URL 
     var el2frame = document.createElement('iframe');
-       el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
-       el2.appendChild(el2frame);
+        el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
+        bodydiv.appendChild(el2frame);
+       
+       
       //add close web button
     
       var closebtn = document.createElement('button');
@@ -107,7 +103,7 @@
         parentdiv.appendChild(closebtn);
         maindiv.appendChild(headerdiv);
         maindiv.appendChild(bodydiv);
-        maindiv.appendChild(footerdiv);
+        //maindiv.appendChild(footerdiv);
         parentdiv.appendChild(maindiv);
         
       var ishidden = false;
