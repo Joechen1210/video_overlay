@@ -131,6 +131,7 @@
     box-sizing: border-box;
     display: block;
     border: 10px;
+    text-align: center;
 }
 
 
