@@ -54,16 +54,18 @@
       
       //add parent div
       var parentdiv = document.createElement('div');
-          parentdiv.className = 'vjs-overlay';
-          parentdiv.className += ' div-parent';
+          //parentdiv.className = 'vjs-overlay';
+          //parentdiv.className += ' div-parent';
+          parentdiv.className = 'div-parent';
           parentdiv.id = 'divparent';
          // parentdiv.setAttribute("role", "dialog");
           parentdiv.role = 'dialog';
          // parentdiv.appendChild('maindiv');
           
       var maindiv = document.createElement('div');
-      	  maindiv.className = 'vjs-overlay';
-      	  maindiv.className += ' div-main';
+      	  //maindiv.className = 'vjs-overlay';
+      	  //maindiv.className += ' div-main';
+      	  maindiv.className = 'div-main';
           maindiv.id = 'divmain';
       
       //add web site div
@@ -80,8 +82,9 @@
          bodydiv.innerHTML = "<h1>This is body</h1>";
          
     var footerdiv = document.createElement('div');
-     	footerdiv.className = 'vjs-overlay';
-     	footerdiv.className += ' model-footer';
+     	//footerdiv.className = 'vjs-overlay';
+     	//footerdiv.className += ' model-footer';
+     	footerdiv.className = 'model-footer';
      	footerdiv.id = 'divfooter';
      	footerdiv.innerHTML = "<button>test</button>";
           
