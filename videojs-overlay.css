@@ -72,6 +72,8 @@
     float: right;
     position: relative;
     margin: 0 10px 0 0;
+    width: 50%;
+    height: 50%;
     max-width: 10px;
     max-height: 10px;
     cursor: pointer;
@@ -95,7 +97,7 @@
 {
    font-size: 150%;
    border: 150%;
-   transform: translateY(-10px);
+   transform: translateY(10px);
    transform: rotate(3.14159rad);
 }
 
