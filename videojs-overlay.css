@@ -78,12 +78,12 @@
     -webkit-appearance: none;
     border: 2px;
     border: solid;
-    border-color: rgb(210,210,210);
+    border-color: rgba(210,210,210,1);
     border-radius: 100%;
     background-color: transparent;
     font-size: 10px;
     padding: 10px;
-    color: rgb(210,210,210);
+    color: rgba(210,210,210,1);
     pointer-events: auto;
     transition: .15s;
     display: block;
