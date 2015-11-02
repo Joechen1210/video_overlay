@@ -70,7 +70,7 @@
 .vjs-overlay.closebtn
 {
     float: right;
-    position: absolute;
+    position: relative;
     margin: 0 10px 0 0;
     max-width: 10px;
     max-height: 10px;
@@ -89,14 +89,13 @@
     display: block;
     text-align: center;
     vertical-align: center;
-    transform: rotate(0) scale(.8,.8);
 }
 
 .vjs-overlay.closebtn:hover
 {
    font-size: 150%;
    border: 150%;
-   transform: rotate(720deg) scale(1,1);
+   transform: rotate(3.14159rad);
 }
 
 .vjs-overlay.div-main 
