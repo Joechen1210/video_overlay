@@ -95,7 +95,7 @@
 {
    font-size: 150%;
    padding: 200%;
-   transform: rotate(3.14159rad), translateY(1px);
+   transform: rotate(3.14159rad);
 }
 
 .vjs-overlay.div-main 
