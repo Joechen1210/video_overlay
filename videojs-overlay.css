@@ -70,7 +70,7 @@
 .vjs-overlay.closebtn
 {
     float: right;
-    position: relative;
+    position: absolute;
     margin: 0 10px 0 0;
     max-width: 10px;
     max-height: 10px;
