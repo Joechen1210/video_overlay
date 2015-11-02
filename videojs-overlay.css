@@ -76,8 +76,10 @@
     max-height: 10px;
     cursor: pointer;
     -webkit-appearance: none;
-    border: none;
-    background-color: transparent;
+    border: 5px;
+    border-style: outset;
+    border-radius: 100%;
+    background-color: red;
     font-size: 1em;
     padding: 15px;
     color: #444;
