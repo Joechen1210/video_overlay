@@ -145,7 +145,7 @@
     max-width: 600px;
     height: 75%;
     max-height: 400px;
-    background-color: #eee;
+    background-color: transparent;
     margin: auto;
     position: absolute;
     border: 1px solid #ddd;
