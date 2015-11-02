@@ -72,8 +72,6 @@
     float: right;
     position: relative;
     margin: 0 10px 0 0;
-    width: 50%;
-    height: 50%;
     max-width: 10px;
     max-height: 10px;
     cursor: pointer;
@@ -96,9 +94,7 @@
 .vjs-overlay.closebtn:hover
 {
    font-size: 150%;
-   border: 150%;
-   width: 100%;
-   height: 100%;
+   padding: 200%;
    transform: translateY(10px);
    transform: rotate(3.14159rad);
 }
