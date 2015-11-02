@@ -79,13 +79,12 @@
     border: 10px;
     border-radius: 100%;
     background-color: red;
-    font-size: 1em;
+    font-size: 10px;
     padding: 10px;
     color: #444;
     pointer-events: auto;
     transition: .15s;
     display: block;
-    font-size: 10px;
 }
 
 .vjs-overlay.closebtn:hover
