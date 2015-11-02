@@ -77,7 +77,7 @@
      	 bodydiv.className = 'vjs-overlay';
          bodydiv.className += ' model-body';
          bodydiv.id = 'divbody';
-         bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none'></iframe>";
+         bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
         // bodydiv.innerHTML = '<h2>HelloWorld</h2>';
     // var el2 = document.createElement('div');
       //    el2.className = 'vjs-overlay';
