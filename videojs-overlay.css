@@ -96,6 +96,8 @@
 {
    font-size: 150%;
    border: 150%;
+   text-align: center;
+   vertical-align: center;
    transform: rotate(360deg) scale(1,1);
 }
 
