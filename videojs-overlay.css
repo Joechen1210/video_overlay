@@ -81,7 +81,7 @@
     border-radius: 100%;
     background-color: red;
     font-size: 1em;
-    padding: 15px;
+    padding: none;
     color: #444;
     pointer-events: auto;
     transition: .15s;
