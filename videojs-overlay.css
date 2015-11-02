@@ -76,7 +76,7 @@
     max-height: 10px;
     cursor: pointer;
     -webkit-appearance: none;
-    border: 5px;
+    border: none;
     border-style: outset;
     border-radius: 100%;
     background-color: red;
