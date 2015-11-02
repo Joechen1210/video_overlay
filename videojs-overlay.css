@@ -85,7 +85,7 @@
     pointer-events: auto;
     transition: .15s;
     display: block;
-    right: 10px;
+    left: 10px;
 }
 
 .vjs-overlay.div-main 
