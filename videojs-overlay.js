@@ -106,7 +106,7 @@
       //headerdiv.appendChild(closebtn);
       
         parentdiv.appendChild(closebtn);
-        maindiv.appendChild(headerdiv);
+        //maindiv.appendChild(headerdiv);
         maindiv.appendChild(bodydiv);
         //maindiv.appendChild(footerdiv);
         parentdiv.appendChild(maindiv);
