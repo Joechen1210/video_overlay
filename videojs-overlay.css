@@ -78,10 +78,11 @@
     -webkit-appearance: none;
     border: 10px;
     border-radius: 100%;
-    background-color: red;
+    outline-color: white;
+    background-color: transparent;
     font-size: 10px;
     padding: 10px;
-    color: #444;
+    color: white;
     pointer-events: auto;
     transition: .15s;
     display: block;
@@ -92,8 +93,8 @@
 
 .vjs-overlay.closebtn:hover
 {
-   background-color: yellow;
-   font-size: 200%;
+   font-size: 150%;
+   border: 150%;
    transform: rotate(360deg) scale(1,1);
 }
 
