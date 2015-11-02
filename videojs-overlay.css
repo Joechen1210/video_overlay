@@ -93,7 +93,6 @@
 
 .vjs-overlay.closebtn:hover
 {
-   font-size: 150%;
    padding: 15px;
    transform: rotate(3.14159rad);
 }
