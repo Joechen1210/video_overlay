@@ -76,7 +76,7 @@
     max-height: 10px;
     cursor: pointer;
     -webkit-appearance: none;
-    border: 1px;
+    border: 0.6px;
     border: solid;
     border-color: white;
     border-radius: 100%;
