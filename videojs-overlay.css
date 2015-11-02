@@ -78,7 +78,7 @@
     -webkit-appearance: none;
     border: 10px;
     border-radius: 100%;
-    outline-color: white;
+    outline: white solid thin;
     background-color: transparent;
     font-size: 10px;
     padding: 10px;
