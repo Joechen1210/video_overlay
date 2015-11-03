@@ -82,7 +82,7 @@
     border-radius: 100%;
     background-color: transparent;
     font-size: 10px;
-    padding: 7px;
+    padding: 4px;
     color: white;
     pointer-events: auto;
     transition: .15s;
@@ -93,7 +93,7 @@
 
 .vjs-overlay.closebtn:hover
 {
-   padding: 13px;
+   padding: 10px;
    transform: rotate(3.14159rad);
    border-color: red;
    color: red;
