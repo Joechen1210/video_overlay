@@ -95,7 +95,7 @@
 {
    padding: 15px;
    transform: rotate(3.14159rad);
-   background-color: red;
+   border-color: red;
 }
 
 .vjs-overlay.div-main 
