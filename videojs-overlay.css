@@ -82,7 +82,7 @@
     border-radius: 100%;
     background-color: transparent;
     font-size: 10px;
-    padding: 5px;
+    padding: 5px 5px 5px 5px;
     color: white;
     pointer-events: auto;
     transition: .15s;
