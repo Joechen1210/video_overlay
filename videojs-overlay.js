@@ -44,11 +44,11 @@
     // append the content
     //if (typeof content === 'string') 
     //{
-      //el.innerHTML = content;
+      el.innerHTML = content;
    // }
    // else
    // {
-      el.appendChild(content);
+      //el.appendChild(content);
    // }
         // add the overlay to the player
     player.el().appendChild(el);
