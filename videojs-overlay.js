@@ -11,7 +11,7 @@
           start: 'playing',
           end: 'paused',
           imagecontent: 'https://images.gogoroapp.com/store/upload/scooter/scooter_gogoro_color_grey_02&03.jpg',
-          contentUrl: 'https://www.brightcove.com/en/',
+          webcontent: 'https://www.brightcove.com/en/'
         }]
       },
       // comparator function to sort overlays by start time
