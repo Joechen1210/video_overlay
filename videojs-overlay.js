@@ -28,7 +28,7 @@
   showOverlay = function(player, settings, overlay) {
     // create the overlay wrapper
     var el = document.createElement('div'),
-        content = overlay.content || settings.content,
+        content = overlay.content || settings.imagecontent,
         align = settings.align || overlay.align;
     el.className = 'vjs-overlay';
     overlay.el = el;
@@ -77,22 +77,11 @@
      	 bodydiv.className = 'vjs-overlay';
          bodydiv.className += ' model-body';
          bodydiv.id = 'divbody';
-         bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
-        // bodydiv.innerHTML = '<h2>HelloWorld</h2>';
-    // var el2 = document.createElement('div');
-      //    el2.className = 'vjs-overlay';
-        //  el2.className += ' vjs-overlay-center';
-          //el2.id = 'overlay2';
+         bodydiv.innerHTML = settings.overlaycontent;
+         //bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
 		 
    //add iframe witch use to embed URL 
-    var el2frame = document.createElement('iframe');
-        el2frame.src = 'http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html';
-        el2frame.width = '500px';
-        el2frame.height = '250px';
-        el2frame.setAttribute("frameborder", "0");
-        //el2frame.className = 'vjs-overlay';
-        //el2frame.className += ' iframe';
-        //bodydiv.appendChild(el2frame);
+
        
        
       //add close web button
