@@ -10,7 +10,8 @@
         overlays: [{
           start: 'playing',
           end: 'paused',
-          contentUrl: 'http://www.mobile01.com/topicdetail.php?f=300&t=1120999',
+          imagecontent: 'http://www.markszulc.com/blog/wp-content/uploads/2012/01/brightcove-logo-video-advertising-platform-distribution-content.jpg',
+          contentUrl: 'https://www.brightcove.com/en/',
         }]
       },
       // comparator function to sort overlays by start time
@@ -28,7 +29,7 @@
   showOverlay = function(player, settings, overlay) {
     // create the overlay wrapper
     var el = document.createElement('div'),
-        content = overlay.content || settings.content,
+        content = overlay.imagecontent || settings.imagecontent;
         align = settings.align || overlay.align;
     el.className = 'vjs-overlay';
     overlay.el = el;
@@ -77,8 +78,8 @@
      	 bodydiv.className = 'vjs-overlay';
          bodydiv.className += ' model-body';
          bodydiv.id = 'divbody';
-         //bodydiv.innerHTML = settings.overlaycontent;
-         bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
+         bodydiv.innerHTML = settings.overlaycontent;
+         //bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
 		 
    //add iframe witch use to embed URL 
 
