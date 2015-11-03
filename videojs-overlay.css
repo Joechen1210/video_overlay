@@ -96,6 +96,7 @@
    padding: 15px;
    transform: rotate(3.14159rad);
    border-color: red;
+   color: red;
 }
 
 .vjs-overlay.div-main 
