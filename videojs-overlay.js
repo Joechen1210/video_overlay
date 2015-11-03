@@ -10,7 +10,7 @@
         overlays: [{
           start: 'playing',
           end: 'paused',
-          imagecontent: 'http://www.markszulc.com/blog/wp-content/uploads/2012/01/brightcove-logo-video-advertising-platform-distribution-content.jpg',
+          imagecontent: 'https://images.gogoroapp.com/store/upload/scooter/scooter_gogoro_color_grey_02&03.jpg',
           contentUrl: 'https://www.brightcove.com/en/',
         }]
       },
@@ -44,7 +44,7 @@
     // append the content
     //if (typeof content === 'string') 
     //{
-      el.innerHTML = content;
+      el.innerHTML = overlay.imagecontent || settings.imagecontent;
    // }
    // else
    // {
