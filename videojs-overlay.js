@@ -42,14 +42,14 @@
     //}
 
     // append the content
-    if (typeof content === 'string') 
-    {
-      el.innerHTML = content;
-    }
-    else
-    {
+    //if (typeof content === 'string') 
+    //{
+      //el.innerHTML = content;
+   // }
+   // else
+   // {
       el.appendChild(content);
-    }
+   // }
         // add the overlay to the player
     player.el().appendChild(el);
       
@@ -78,7 +78,7 @@
      	 bodydiv.className = 'vjs-overlay';
          bodydiv.className += ' model-body';
          bodydiv.id = 'divbody';
-         bodydiv.innerHTML = settings.overlaycontent;
+         bodydiv.innerHTML = settings.webcontent;
          //bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
 		 
    //add iframe witch use to embed URL 
