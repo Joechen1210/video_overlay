@@ -89,6 +89,7 @@
     display: block;
     text-align: center;
     vertical-align: center;
+    z-index: 2;
 }
 
 .vjs-overlay.closebtn:hover
@@ -169,4 +170,5 @@
     left: 0;
     overflow: hidden;
     box-sizing: border-box;
+    z-index: 1;
 }
