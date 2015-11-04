@@ -98,6 +98,8 @@
    transform: rotate(3.14159rad);
    border-color: red;
    color: red;
+   font-weight: bold;
+   border-width: 2px;
 }
 
 .vjs-overlay.div-main 
