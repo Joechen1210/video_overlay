@@ -8,7 +8,8 @@
         content: 'This overlay will show up while the video is playing',
         overlays: [{
           start: 'playing',
-          end: 'paused'
+          end: 'paused',
+          imagecontent: '<img src="http://rack.2.mshcdn.com/media/ZgkyMDE0LzA5LzEwLzY4L2lwaG9uZXBsdXMuZDdjZGIuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/f43081be/d6c/iphone-plus.jpg" height="50%" width="50%"></img>',
         }]
       },
       // comparator function to sort overlays by start time
@@ -62,7 +63,7 @@
         events = {},
         startTimes = [],
         endTimes = [],
-
+    
         // an event handler that displays all overlays of that type
         showOverlayListener = function(event) {
           var overlays = events[event.type],
