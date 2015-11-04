@@ -4,13 +4,11 @@
 (function(window, videojs) {
   'use strict';
 
-
   var defaults = {
         content: 'This overlay will show up while the video is playing',
         overlays: [{
           start: 'playing',
-          end: 'paused',
-          content: 'http://rack.2.mshcdn.com/media/ZgkyMDE0LzA5LzEwLzY4L2lwaG9uZXBsdXMuZDdjZGIuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/f43081be/d6c/iphone-plus.jpg',
+          end: 'paused'
         }]
       },
       // comparator function to sort overlays by start time
@@ -21,112 +19,33 @@
       ascendingByEnd = function(left, right) {
         return left.end - right.end;
       },
+
       showOverlay,
       hideOverlay,
       init;
-    
+
   showOverlay = function(player, settings, overlay) {
     // create the overlay wrapper
     var el = document.createElement('div'),
-        content = overlay.content || settings.content;
+        content = overlay.content || settings.content,
         align = settings.align || overlay.align;
     el.className = 'vjs-overlay';
     overlay.el = el;
-    el.style.borderStyle = 'none';
-    //el.style.opacity = 0.2;
 
     // if an alignment was specified, add the appropriate class
-   //if (align) {
+    if (align) {
       el.className += ' vjs-overlay-' + align;
-    //}
+    }
 
     // append the content
-    if (typeof content === 'string') 
-    {
+    if (typeof content === 'string') {
       el.innerHTML = content;
-    }
-    else
-    {
+    } else {
       el.appendChild(content);
     }
-        // add the overlay to the player
-    player.el().appendChild(el);
-      
-      //add parent div
-      var parentdiv = document.createElement('div');
-          parentdiv.className = 'vjs-overlay';
-          parentdiv.className += ' div-parent';
-          //parentdiv.className = 'div-parent';
-          parentdiv.id = 'divparent';
-          //parentdiv.role = 'dialog';
-         // parentdiv.appendChild('maindiv');
-          
-      var maindiv = document.createElement('div');
-      	  maindiv.className = 'vjs-overlay';
-      	  maindiv.className += ' div-main';
-      	  maindiv.id = 'divmain';
-      
-      //add web site div
-     var headerdiv = document.createElement('div');
-         headerdiv.className = 'vjs-overlay';
-         headerdiv.className += ' model-header';
-         headerdiv.id = 'divheader';
-         headerdiv.innerHTML = '<h3>Product Information</h3>';
-         
-     var bodydiv = document.createElement('div');
-     	 bodydiv.className = 'vjs-overlay';
-         bodydiv.className += ' model-body';
-         bodydiv.id = 'divbody';
-         //bodydiv.innerHTML = settings.overlaycontent;
-         bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
-		 
-   //add iframe witch use to embed URL 
 
-       
-       
-      //add close web button
-    
-      var closebtn = document.createElement('button');
-          closebtn.className = 'vjs-overlay';
-          closebtn.className += ' closebtn';
-          closebtn.id = 'btnclose';
-      var closetext = document.createTextNode('X');
-      closebtn.appendChild(closetext);
-      //headerdiv.appendChild(closebtn);
-      
-        parentdiv.appendChild(closebtn);
-        //maindiv.appendChild(headerdiv);
-        maindiv.appendChild(bodydiv);
-        //maindiv.appendChild(footerdiv);
-        parentdiv.appendChild(maindiv);
-        
-      var ishidden = false;
-     el.onclick = function()
-     {
-       if(ishidden) 
-       {
-           player.el().removeChild(parentdiv);
-           ishidden = false;
-           //player.el().removeChild(el2);
-           player.play();
-       }
-       else
-       {
-           player.el().appendChild(parentdiv);
-           //player.el().appendChild(el2);
-           ishidden = true;
-           player.pause();
-       }
-     }
-     
-        closebtn.onmouseup = function()
-      {
-           player.el().removeChild(parentdiv);
-           //player.el().removeChild(el2);
-           ishidden = false;
-           player.play();
-       }
-      
+    // add the overlay to the player
+    player.el().appendChild(el);
   };
   hideOverlay = function(player, settings, overlay) {
     overlay.el.parentNode.removeChild(overlay.el);
