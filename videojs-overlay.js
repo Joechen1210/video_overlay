@@ -10,8 +10,9 @@
         overlays: [{
           start: 'playing',
           end: 'paused',
-          imagecontent: 'https://images.gogoroapp.com/store/upload/scooter/scooter_gogoro_color_grey_02&03.jpg',
-          webcontent: 'https://www.brightcove.com/en/'
+          //imagecontent: 'https://images.gogoroapp.com/store/upload/scooter/scooter_gogoro_color_grey_02&03.jpg',
+          //webcontent: 'https://www.brightcove.com/en/'
+          content: 'https://images.gogoroapp.com/store/upload/scooter/scooter_gogoro_color_grey_02&03.jpg'
         }]
       },
       // comparator function to sort overlays by start time
