@@ -9,8 +9,8 @@
         overlays: [{
           start: 'playing',
           end: 'paused',
-          imagecontent: '<img src="http://rack.2.mshcdn.com/media/ZgkyMDE0LzA5LzEwLzY4L2lwaG9uZXBsdXMuZDdjZGIuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/f43081be/d6c/iphone-plus.jpg" height="50%" width="50%"></img>',
-          webcontent: '<img src="http://rack.2.mshcdn.com/media/ZgkyMDE0LzA5LzEwLzY4L2lwaG9uZXBsdXMuZDdjZGIuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/f43081be/d6c/iphone-plus.jpg" height="50%" width="50%"></img>',
+          //imagecontent: '<img src="http://rack.2.mshcdn.com/media/ZgkyMDE0LzA5LzEwLzY4L2lwaG9uZXBsdXMuZDdjZGIuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/f43081be/d6c/iphone-plus.jpg" height="50%" width="50%"></img>',
+         //webcontent: '<img src="http://rack.2.mshcdn.com/media/ZgkyMDE0LzA5LzEwLzY4L2lwaG9uZXBsdXMuZDdjZGIuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/f43081be/d6c/iphone-plus.jpg" height="50%" width="50%"></img>',
         }]
       },
       // comparator function to sort overlays by start time
