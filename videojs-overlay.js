@@ -30,7 +30,7 @@
   showOverlay = function(player, settings, overlay) {
     // create the overlay wrapper
     var el = document.createElement('div'),
-        content = overlay.imagecontent || settings.imagecontent || settings.content;
+        content = overlay.imagecontent || settings.imagecontent || overlay.content;
         align = settings.align || overlay.align;
     el.className = 'vjs-overlay';
     overlay.el = el;
