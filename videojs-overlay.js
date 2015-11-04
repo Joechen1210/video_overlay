@@ -10,7 +10,7 @@
         overlays: [{
           start: 'playing',
           end: 'paused',
-          contentUrl: 'http://www.mobile01.com/topicdetail.php?f=300&t=1120999',
+          content: 'http://rack.2.mshcdn.com/media/ZgkyMDE0LzA5LzEwLzY4L2lwaG9uZXBsdXMuZDdjZGIuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/f43081be/d6c/iphone-plus.jpg',
         }]
       },
       // comparator function to sort overlays by start time
