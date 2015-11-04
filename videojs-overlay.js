@@ -30,6 +30,7 @@
     // create the overlay wrapper
     var el = document.createElement('div'),
         content = overlay.imagecontent || settings.imagecontent,
+        webcontent = overlay.webcontent || settings.webcontent,
         align = settings.align || overlay.align;
     el.className = 'vjs-overlay';
     overlay.el = el;
@@ -73,11 +74,11 @@
          bodydiv.id = 'divbody';
          
            if (typeof content === 'string') {
-         bodydiv.innerHTML = settings.webcontent;
+         bodydiv.innerHTML = webcontent;
          //bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
            }
           } else {
-          bodydiv.appendChild(settings.webcontent);
+          bodydiv.appendChild(webcontent);
           }
            
       //add close web button
