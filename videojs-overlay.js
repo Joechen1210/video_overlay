@@ -29,7 +29,7 @@
   showOverlay = function(player, settings, overlay) {
     // create the overlay wrapper
     var el = document.createElement('div'),
-        content = overlay.imagecontent || settings.imagecontent;
+        content = overlay.imagecontent || settings.imagecontent || settings.content;
         align = settings.align || overlay.align;
     el.className = 'vjs-overlay';
     overlay.el = el;
@@ -42,14 +42,14 @@
     //}
 
     // append the content
-    //if (typeof content === 'string') 
-    //{
-      el.innerHTML = overlay.imagecontent || settings.imagecontent;
-   // }
-   // else
-   // {
-      //el.appendChild(content);
-   // }
+    if (typeof content === 'string') 
+    {
+      el.innerHTML = content;
+    }
+    else
+    {
+      el.appendChild(content);
+    }
         // add the overlay to the player
     player.el().appendChild(el);
       
@@ -57,10 +57,7 @@
       var parentdiv = document.createElement('div');
           parentdiv.className = 'vjs-overlay';
           parentdiv.className += ' div-parent';
-          //parentdiv.className = 'div-parent';
           parentdiv.id = 'divparent';
-          //parentdiv.role = 'dialog';
-         // parentdiv.appendChild('maindiv');
           
       var maindiv = document.createElement('div');
       	  maindiv.className = 'vjs-overlay';
@@ -80,25 +77,17 @@
          bodydiv.id = 'divbody';
          bodydiv.innerHTML = settings.webcontent;
          //bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
-		 
-   //add iframe witch use to embed URL 
-
-       
        
       //add close web button
-    
       var closebtn = document.createElement('button');
           closebtn.className = 'vjs-overlay';
           closebtn.className += ' closebtn';
           closebtn.id = 'btnclose';
       var closetext = document.createTextNode('X');
       closebtn.appendChild(closetext);
-      //headerdiv.appendChild(closebtn);
       
         parentdiv.appendChild(closebtn);
-        //maindiv.appendChild(headerdiv);
         maindiv.appendChild(bodydiv);
-        //maindiv.appendChild(footerdiv);
         parentdiv.appendChild(maindiv);
         
       var ishidden = false;
@@ -108,13 +97,11 @@
        {
            player.el().removeChild(parentdiv);
            ishidden = false;
-           //player.el().removeChild(el2);
            player.play();
        }
        else
        {
            player.el().appendChild(parentdiv);
-           //player.el().appendChild(el2);
            ishidden = true;
            player.pause();
        }
@@ -123,7 +110,6 @@
         closebtn.onmouseup = function()
       {
            player.el().removeChild(parentdiv);
-           //player.el().removeChild(el2);
            ishidden = false;
            player.play();
        }
