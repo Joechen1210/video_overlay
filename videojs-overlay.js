@@ -9,7 +9,7 @@
         overlays: [{
           start: 'playing',
           end: 'paused',
-          //imagecontent: '<img src="http://rack.2.mshcdn.com/media/ZgkyMDE0LzA5LzEwLzY4L2lwaG9uZXBsdXMuZDdjZGIuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/f43081be/d6c/iphone-plus.jpg" height="50%" width="50%"></img>',
+          imagecontent: '<img src="http://rack.2.mshcdn.com/media/ZgkyMDE0LzA5LzEwLzY4L2lwaG9uZXBsdXMuZDdjZGIuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/f43081be/d6c/iphone-plus.jpg" height="50%" width="50%"></img>',
          //webcontent: '<img src="http://rack.2.mshcdn.com/media/ZgkyMDE0LzA5LzEwLzY4L2lwaG9uZXBsdXMuZDdjZGIuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/f43081be/d6c/iphone-plus.jpg" height="50%" width="50%"></img>',
         }]
       },
@@ -29,7 +29,7 @@
   showOverlay = function(player, settings, overlay) {
     // create the overlay wrapper
     var el = document.createElement('div'),
-        content = overlay.webcontent || settings.webcontent,
+        content = overlay.imagecontent || settings.imagecontent,
         align = settings.align || overlay.align;
     el.className = 'vjs-overlay';
     overlay.el = el;
@@ -48,6 +48,68 @@
 
     // add the overlay to the player
     player.el().appendChild(el);
+    
+          //add parent div
+      var parentdiv = document.createElement('div');
+          parentdiv.className = 'vjs-overlay';
+          parentdiv.className += ' div-parent';
+          parentdiv.id = 'divparent';
+          
+      var maindiv = document.createElement('div');
+      	  maindiv.className = 'vjs-overlay';
+      	  maindiv.className += ' div-main';
+      	  maindiv.id = 'divmain';
+      
+      //add web site div
+     var headerdiv = document.createElement('div');
+         headerdiv.className = 'vjs-overlay';
+         headerdiv.className += ' model-header';
+         headerdiv.id = 'divheader';
+         headerdiv.innerHTML = '<h3>Product Information</h3>';
+         
+     var bodydiv = document.createElement('div');
+     	 bodydiv.className = 'vjs-overlay';
+         bodydiv.className += ' model-body';
+         bodydiv.id = 'divbody';
+         bodydiv.innerHTML = settings.webcontent;
+         //bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
+       
+      //add close web button
+      var closebtn = document.createElement('button');
+          closebtn.className = 'vjs-overlay';
+          closebtn.className += ' closebtn';
+          closebtn.id = 'btnclose';
+      var closetext = document.createTextNode('X');
+      closebtn.appendChild(closetext);
+      
+        parentdiv.appendChild(closebtn);
+        maindiv.appendChild(bodydiv);
+        parentdiv.appendChild(maindiv);
+        
+      var ishidden = false;
+     el.onclick = function()
+     {
+       if(ishidden) 
+       {
+           player.el().removeChild(parentdiv);
+           ishidden = false;
+           player.play();
+       }
+       else
+       {
+           player.el().appendChild(parentdiv);
+           ishidden = true;
+           player.pause();
+       }
+     }
+     
+        closebtn.onmouseup = function()
+      {
+           player.el().removeChild(parentdiv);
+           ishidden = false;
+           player.play();
+       }
+       
   };
   hideOverlay = function(player, settings, overlay) {
     overlay.el.parentNode.removeChild(overlay.el);
