@@ -73,7 +73,7 @@
          bodydiv.className += ' model-body';
          bodydiv.id = 'divbody';
          
-           if (typeof content === 'string') {
+        if (typeof webcontent === 'string') {
          bodydiv.innerHTML = webcontent;
          //bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
            }
