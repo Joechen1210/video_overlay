@@ -162,7 +162,7 @@
     background-color: transparent;
     margin: auto;
     position: absolute;
-    border: none;
+    border: 1px;
     top: 0;
     right: 0;
     bottom: 0;
