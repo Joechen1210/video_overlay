@@ -8,10 +8,8 @@
 .vjs-overlay,
 .vjs-overlay.vjs-overlay-top-left1
 {
-  position: absolute;
   top: 0;
   left: 0;
-  text-align: center;
   cursor: pointer;
 }
 
