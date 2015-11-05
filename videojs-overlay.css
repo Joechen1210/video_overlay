@@ -70,7 +70,7 @@
 {
     float: right;
     position: relative;
-    margin: 0px 5px 0px 0px;
+    margin: 0px 10px 0px 0px;
     max-width: 10px;
     max-height: 10px;
     cursor: pointer;
@@ -81,7 +81,7 @@
     border-radius: 100%;
     background-color: transparent;
     font-size: 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 4px 5px 4px 5px;
     color: white;
     pointer-events: auto;
     transition: .15s;
