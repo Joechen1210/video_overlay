@@ -18,9 +18,12 @@
 /* overlay alignment styles */
 .vjs-overlay.vjs-overlay-top
 {
-  margin-left: -16.5%;
-  left: 50%;
-  cursor: pointer;
+  position: fixed;
+  height: 25%;
+  width: 20%;
+  left: 40%;
+  bottom: 11%;
+  cursor: pointer
 }
 
 .vjs-overlay.vjs-overlay-top-right 
