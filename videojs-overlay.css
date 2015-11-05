@@ -45,7 +45,7 @@
 
 .vjs-overlay.vjs-overlay-right 
 {
-  position: fixed;
+  position: absolute;
   left: auto;
   right: 5px;
   top: 50%;
