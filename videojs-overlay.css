@@ -48,11 +48,10 @@
 {
   position: absolute;
   left: auto;
-  right: 5px;
+  right: 1px;
   height: 25%;
   width: 20%;
-  top: 40%;
-  margin-top: -15px;
+  top: 35%;
   cursor: pointer;
 }
 
