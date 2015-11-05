@@ -132,7 +132,8 @@
     background-color: white;
     box-sizing: border-box;
     display: block;
-    width: 100%;
+    width: 90%;
+    max-height: 350px;
     overflow: auto;
     padding-bottom: 15px;
     padding-left: 15px;
