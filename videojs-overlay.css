@@ -51,10 +51,9 @@
   position: fixed;;
   height: 25%;
   width: 20%;
-  left: 50%;
+  left: 40%;
   top: auto;
-  margin-right: -20%;
-  bottom: 10%;
+  bottom: 11%;
   cursor: pointer;
 }
 
