@@ -8,7 +8,7 @@
 .vjs-overlay,
 .vjs-overlay.vjs-overlay-top-left1
 {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   text-align: center;
@@ -45,6 +45,7 @@
 
 .vjs-overlay.vjs-overlay-right 
 {
+  position: fixed;
   left: auto;
   right: 5px;
   top: 50%;
