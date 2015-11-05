@@ -35,8 +35,11 @@
 
 .vjs-overlay.vjs-overlay-left 
 {
-  top: 50%;
-  margin-top: -15px;
+  position: fixed;
+  height: 25%;
+  width: 20%;
+  left: auto;
+  top: 40%;
   cursor: pointer;
 }
 
