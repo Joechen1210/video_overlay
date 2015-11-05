@@ -132,8 +132,8 @@
     background-color: white;
     box-sizing: border-box;
     display: block;
-    width: 550px;
-    height: 380px;
+    width: 100%;
+    height: 80%;
     overflow: auto;
     padding-bottom: 15px;
     padding-left: 15px;
