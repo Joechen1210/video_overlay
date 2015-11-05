@@ -111,6 +111,7 @@
    display: block;
    border: 10px;
    z-index: 1;
+   bottom:auto;
 }
 
 .vjs-overlay.model-header 
