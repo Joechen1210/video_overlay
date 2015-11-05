@@ -48,6 +48,8 @@
 
 .vjs-overlay.vjs-overlay-bottom 
 {
+  height: 30%;
+  width: 25%;
   margin-left: -22%;
   left: 50%;
   top: auto;
