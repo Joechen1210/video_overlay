@@ -111,8 +111,6 @@
    display: block;
    border: 10px;
    z-index: 1;
-   width: 90%;
-  max-height: 350px;
 }
 
 .vjs-overlay.model-header 
@@ -139,6 +137,8 @@
     padding-right: 15px;
     padding-top: 15px;
     position: absolute;
+    width: 90%;
+    height: 350px;
 }
 
 .vjs-overlay.model-footer 
