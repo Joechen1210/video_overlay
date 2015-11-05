@@ -93,7 +93,7 @@
 
 .vjs-overlay.closebtn:hover
 {
-   padding: 8px 8px 8px 8px;
+   padding: 6px 7px 6px 7px;
    transform: rotate(3.14159rad);
    border-color: red;
    color: red;
