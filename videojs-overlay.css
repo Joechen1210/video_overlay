@@ -48,7 +48,9 @@
   position: absolute;
   left: auto;
   right: 5px;
-  top: 50%;
+  height: 25%;
+  width: 20%;
+  top: 40%;
   margin-top: -15px;
   cursor: pointer;
 }
@@ -67,6 +69,8 @@
 .vjs-overlay.vjs-overlay-bottom-left 
 {
   bottom: 4.5em;
+  height: 25%;
+  width: 20%;
   top: auto;
   left: 5px;
   cursor: pointer;
