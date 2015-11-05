@@ -111,7 +111,8 @@
    display: block;
    border: 10px;
    z-index: 1;
-   bottom:auto;
+   width: 90%;
+  max-height: 350px;
 }
 
 .vjs-overlay.model-header 
@@ -132,8 +133,6 @@
     background-color: white;
     box-sizing: border-box;
     display: block;
-    width: 90%;
-    max-height: 350px;
     overflow: auto;
     padding-bottom: 15px;
     padding-left: 15px;
