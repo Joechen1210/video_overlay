@@ -6,127 +6,71 @@
  * Some handy default styles for overlays.
  */
 .vjs-overlay,
-.vjs-overlay.vjs-overlay-top
-{
-  position: absolute;
-  height: 25%;
-  width: 20%;
-  left: 40%;
-  bottom: 11%;
-  cursor: pointer
-}
-
-/* overlay alignment styles */
-.vjs-overlay.vjs-overlay-left 
-{
-  position: absolute;
-  height: 25%;
-  width: 20%;
-  left: auto;
-  top: 40%;
-  cursor: pointer;
-}
-
-.vjs-overlay.vjs-overlay-right 
-{
-  position: absolute;
-  left: auto;
-  right: 5px;
-  height: 25%;
-  width: 20%;
-  top: 40%;
-  margin-top: -15px;
-  cursor: pointer;
-}
-
-.vjs-overlay.vjs-overlay-bottom 
-{
-  position: absolute;
-  height: 25%;
-  width: 20%;
-  left: 40%;
-  top: auto;
-  bottom: 11%;
-  cursor: pointer;
-}
-
 .vjs-overlay.vjs-overlay-top-left1
 {
   position: absolute;
-  right: auto;
-  height: 25%;
-  width: 20%;
-  margin-top: 1px;
-  cursor: pointer;
-  margin-left: 1px;
-}
-
-.vjs-overlay.vjs-overlay-top-left2
-{
-  position: absolute;
-  left: 25%;
-  right: auto;
-  height: 25%;
-  width: 20%;
-  margin-top: 1px;
-  cursor: pointer;
-  margin-left: 1px;
-}
-
-.vjs-overlay.vjs-overlay-top-right1 
-{
-  position: absolute;
-  left: auto;
-  right: 1px;
-  height: 25%;
-  width: 20%;
-  margin-top: 1px;
-  cursor: pointer;
-}
-
-.vjs-overlay.vjs-overlay-top-right2 
-{
-  position: absolute;
-  left: auto;
-  right: 25%;
-  height: 25%;
-  width: 20%;
-  margin-top: 1px;
-  cursor: pointer;
-}
-
-.vjs-overlay.vjs-overlay-bottom-left1 
-{
-  bottom: 4.5em;
-  height: 25%;
-  width: 20%;
-  top: auto;
+  top: 5px;
   left: 5px;
-  cursor: pointer;
+  text-align: center;
 }
 
-.vjs-overlay.vjs-overlay-bottom-right1
+/* overlay alignment styles */
+.vjs-overlay.vjs-overlay-top
 {
-  bottom: 4.5em;
-  top: auto;
+  margin-left: -16.5%;
+  left: 50%;
+}
+.vjs-overlay.vjs-overlay-top-right {
   left: auto;
   right: 5px;
   cursor: pointer;
 }
-
-.vjs-overlay.vjs-overlay-center 
-{
+.vjs-overlay.vjs-overlay-left {
+  top: 50%;
+  margin-top: -15px;
+}
+.vjs-overlay.vjs-overlay-right {
+  left: auto;
+  right: 5px;
+  top: 50%;
+  margin-top: -15px;
+}
+.vjs-overlay.vjs-overlay-bottom {
+  margin-left: -16.5%;
+  left: 50%;
+  top: auto;
+  bottom: 4.5em;
+}
+.vjs-overlay.vjs-overlay-bottom-left {
+  bottom: 4.5em;
+  top: auto;
+  left: 5px;
+}
+.vjs-overlay.vjs-overlay-bottom-right {
+  bottom: 4.5em;
+  top: auto;
+  left: auto;
+  right: 5px;
+}
+.vjs-overlay.vjs-overlay-center {
  background: yellow;
  margin: 15px;
+ /*float: bottom;
+ vertical-align:middle;
+ width: 250;
+ height: 300;
+ top: 50%;
+ left: 50%;
+ padding: 0px 0px 0px 0px; 
+ z-index: 90; */
  overflow: auto;
- cursor: pointer;
 }
 
 .vjs-overlay.closebtn
 {
     float: right;
     position: relative;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 10px 10px 0px;
     max-width: 10px;
     max-height: 10px;
     cursor: pointer;
@@ -137,7 +81,7 @@
     border-radius: 100%;
     background-color: transparent;
     font-size: 10px;
-    padding: 4px 5px 4px 5px;
+    padding: 5px 5px 5px 5px;
     color: white;
     pointer-events: auto;
     transition: .15s;
@@ -149,7 +93,7 @@
 
 .vjs-overlay.closebtn:hover
 {
-   padding: 6px 7px 6px 7px;
+   padding: 8px 8px 8px 8px;
    transform: rotate(3.14159rad);
    border-color: red;
    color: red;
@@ -160,7 +104,6 @@
 .vjs-overlay.div-main 
 {
    clear: right;
-   margin: 0px 0px 0px 0px;
    position: relative;
    background-color: white;
    box-sizing: border-box;
@@ -185,16 +128,19 @@
 .vjs-overlay.model-body
 {
     background-color: white;
+    bottom: 58px;
     box-sizing: border-box;
     display: block;
+    width: 550px;
+    height: 380px;
     overflow: auto;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
     position: absolute;
-    width: 95%;
-    height: 350px;
+    top: 40px;
+    left: 0px;
 }
 
 .vjs-overlay.model-footer 
@@ -215,10 +161,11 @@
     width:60%;
     max-width: 590px;
     height: 75%;
-    max-height: 400px;
+    max-height: 410px;
     background-color: transparent;
     margin: auto;
     position: absolute;
+    border: 1px;
     top: 0;
     right: 0;
     bottom: 0;
