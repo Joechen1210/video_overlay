@@ -34,9 +34,6 @@
 
 .vjs-overlay.vjs-overlay-top-left-1 {
   position: absolute;
-  width: 33%;
-  /*background-color: #646464; /* IE8 fallback */
-  /* background-color: rgba(255, 255, 255, 0.4); */
   top: 5px;
   left: 5px;
   text-align: center;
