@@ -52,6 +52,7 @@
   width: 20%;
   margin-left: -22%;
   left: 50%;
+  top: auto;
   bottom: 15%;
   cursor: pointer;
 }
