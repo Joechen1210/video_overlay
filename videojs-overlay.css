@@ -8,7 +8,6 @@
 .vjs-overlay,
 .vjs-overlay.vjs-overlay-top
 {
-  position: absolute;
   height: 25%;
   width: 20%;
   left: 40%;
@@ -19,7 +18,6 @@
 /* overlay alignment styles */
 .vjs-overlay.vjs-overlay-left 
 {
-  position: absolute;
   height: 25%;
   width: 20%;
   left: auto;
@@ -29,7 +27,6 @@
 
 .vjs-overlay.vjs-overlay-right 
 {
-  position: absolute;
   left: auto;
   right: 5px;
   height: 25%;
@@ -41,7 +38,6 @@
 
 .vjs-overlay.vjs-overlay-bottom 
 {
-  position: absolute;
   height: 25%;
   width: 20%;
   left: 40%;
@@ -52,7 +48,6 @@
 
 .vjs-overlay.vjs-overlay-top-left1
 {
-  position: absolute;
   right: auto;
   height: 25%;
   width: 20%;
@@ -63,7 +58,6 @@
 
 .vjs-overlay.vjs-overlay-top-left2
 {
-  position: absolute;
   left: 25%;
   right: auto;
   height: 25%;
@@ -75,7 +69,6 @@
 
 .vjs-overlay.vjs-overlay-top-right1 
 {
-  position: absolute;
   left: auto;
   right: 1px;
   height: 25%;
@@ -86,7 +79,6 @@
 
 .vjs-overlay.vjs-overlay-top-right2 
 {
-  position: absolute;
   left: auto;
   right: 25%;
   height: 25%;
