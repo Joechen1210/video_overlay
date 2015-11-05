@@ -5,8 +5,34 @@
 /**
  * Some handy default styles for overlays.
  */
+ 
+/* overlay alignment styles */
 .vjs-overlay,
-.vjs-overlay.vjs-overlay-top-left {
+.vjs-overlay.vjs-overlay-top {
+  margin-left: -16.5%;
+  left: 50%;
+}
+
+.vjs-overlay.vjs-overlay-bottom {
+  margin-left: -16.5%;
+  left: 50%;
+  top: auto;
+  bottom: 4.5em;
+}
+
+.vjs-overlay.vjs-overlay-left {
+  top: 50%;
+  margin-top: -15px;
+}
+
+.vjs-overlay.vjs-overlay-right {
+  left: auto;
+  right: 5px;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.vjs-overlay.vjs-overlay-top-left-1 {
   position: absolute;
   width: 33%;
   /*background-color: #646464; /* IE8 fallback */
@@ -16,32 +42,12 @@
   text-align: center;
 }
 
-/* overlay alignment styles */
-.vjs-overlay.vjs-overlay-top {
-  margin-left: -16.5%;
-  left: 50%;
-}
 .vjs-overlay.vjs-overlay-top-right {
   left: auto;
   right: 5px;
   cursor: pointer;
 }
-.vjs-overlay.vjs-overlay-left {
-  top: 50%;
-  margin-top: -15px;
-}
-.vjs-overlay.vjs-overlay-right {
-  left: auto;
-  right: 5px;
-  top: 50%;
-  margin-top: -15px;
-}
-.vjs-overlay.vjs-overlay-bottom {
-  margin-left: -16.5%;
-  left: 50%;
-  top: auto;
-  bottom: 4.5em;
-}
+
 .vjs-overlay.vjs-overlay-bottom-left {
   bottom: 4.5em;
   top: auto;
