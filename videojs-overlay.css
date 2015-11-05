@@ -103,7 +103,7 @@
 
 .vjs-overlay.div-main 
 {
-   float: left;
+   clear: right;
    position: relative;
    background-color: white;
    box-sizing: border-box;
