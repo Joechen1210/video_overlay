@@ -6,19 +6,9 @@
  * Some handy default styles for overlays.
  */
 .vjs-overlay,
-.vjs-overlay.vjs-overlay-top-left1
-{
-  position: fixed;
-  top: 0;
-  left: 0;
-  text-align: center;
-  cursor: pointer;
-}
-
-/* overlay alignment styles */
 .vjs-overlay.vjs-overlay-top
 {
-  position: fixed;
+  position: absolute;
   height: 25%;
   width: 20%;
   left: 40%;
@@ -26,16 +16,10 @@
   cursor: pointer
 }
 
-.vjs-overlay.vjs-overlay-top-right 
-{
-  left: auto;
-  right: 5px;
-  cursor: pointer;
-}
-
+/* overlay alignment styles */
 .vjs-overlay.vjs-overlay-left 
 {
-  position: fixed;
+  position: absolute;
   height: 25%;
   width: 20%;
   left: auto;
@@ -57,7 +41,7 @@
 
 .vjs-overlay.vjs-overlay-bottom 
 {
-  position: fixed;;
+  position: absolute;
   height: 25%;
   width: 20%;
   left: 40%;
@@ -66,7 +50,39 @@
   cursor: pointer;
 }
 
-.vjs-overlay.vjs-overlay-bottom-left 
+.vjs-overlay.vjs-overlay-top-left1
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.vjs-overlay.vjs-overlay-top-left2
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.vjs-overlay.vjs-overlay-top-right1 
+{
+  left: auto;
+  right: 5px;
+  cursor: pointer;
+}
+
+.vjs-overlay.vjs-overlay-top-right2 
+{
+  left: auto;
+  right: 5px;
+  cursor: pointer;
+}
+
+.vjs-overlay.vjs-overlay-bottom-left1 
 {
   bottom: 4.5em;
   height: 25%;
@@ -76,7 +92,7 @@
   cursor: pointer;
 }
 
-.vjs-overlay.vjs-overlay-bottom-right 
+.vjs-overlay.vjs-overlay-bottom-right1
 {
   bottom: 4.5em;
   top: auto;
@@ -84,6 +100,7 @@
   right: 5px;
   cursor: pointer;
 }
+
 .vjs-overlay.vjs-overlay-center 
 {
  background: yellow;
