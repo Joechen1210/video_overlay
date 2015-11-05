@@ -9,8 +9,10 @@
 .vjs-overlay.vjs-overlay-top-left1
 {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  bottom:auto;
+  right:auto;
+  top: 0;
+  left: 0;
   text-align: center;
 }
 
