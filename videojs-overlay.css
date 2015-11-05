@@ -53,36 +53,45 @@
 .vjs-overlay.vjs-overlay-top-left1
 {
   position: absolute;
-  top: 0;
-  left: 0;
-  text-align: center;
+  right: auto;
+  height: 25%;
+  width: 20%;
+  margin-top: 1px;
   cursor: pointer;
+  margin-left: 1px;
 }
 
 .vjs-overlay.vjs-overlay-top-left2
 {
   position: absolute;
-  top: 0;
-  left: 0;
-  text-align: center;
+  left: 25%;
+  right: auto;
+  height: 25%;
+  width: 20%;
+  margin-top: 1px;
   cursor: pointer;
+  margin-left: 1px;
 }
 
 .vjs-overlay.vjs-overlay-top-right1 
 {
   position: absolute;
-    left: auto;
-    right: 1px;
-    height: 25%;
-    width: 20%;
-    margin-top: 1px;
-    cursor: pointer;
+  left: auto;
+  right: 1px;
+  height: 25%;
+  width: 20%;
+  margin-top: 1px;
+  cursor: pointer;
 }
 
 .vjs-overlay.vjs-overlay-top-right2 
 {
+  position: absolute;
   left: auto;
-  right: 5px;
+  right: 25%;
+  height: 25%;
+  width: 20%;
+  margin-top: 1px;
   cursor: pointer;
 }
 
