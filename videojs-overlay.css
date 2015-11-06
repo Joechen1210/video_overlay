@@ -8,7 +8,6 @@
 .vjs-overlay,
 .vjs-overlay.vjs-overlay-top
 {
-  position: fixed;
   height: 25%;
   width: 20%;
   left: 40%;
@@ -18,7 +17,6 @@
 
 .vjs-overlay.vjs-overlay-top-left1
 {
-  position: fixed;
   top: 0;
   left: 0;
   text-align: center;
@@ -37,7 +35,6 @@
 
 .vjs-overlay.vjs-overlay-left 
 {
-  position: fixed;
   height: 25%;
   width: 20%;
   left: auto;
@@ -47,7 +44,6 @@
 
 .vjs-overlay.vjs-overlay-right 
 {
-  position: fixed;
   left: auto;
   right: 5px;
   top: 50%;
@@ -57,7 +53,6 @@
 
 .vjs-overlay.vjs-overlay-bottom 
 {
-  position: fixed;;
   height: 25%;
   width: 20%;
   left: 40%;
