@@ -92,9 +92,9 @@
   position: absolute;
   height: 25%;
   width: 20%;
-  bottom: 11%;
+  bottom: 12%;
   top: auto;
-  left: 5px;
+  margin-left: 1px;
   cursor: pointer;
 }
 
@@ -103,7 +103,7 @@
   position: absolute;
   height: 25%;
   width: 20%;
-  bottom: 11%;
+  bottom: 12%;
   top: auto;
   left: 5px;
   cursor: pointer;
@@ -114,7 +114,7 @@
   position: absolute;
   height: 25%;
   width: 20%;
-  bottom: 11%;
+  bottom: 12%;
   top: auto;
   left: auto;
   right: 5px;
@@ -126,7 +126,7 @@
   position: absolute;
   height: 25%;
   width: 20%;
-  bottom: 11%;
+  bottom: 12%;
   top: auto;
   left: auto;
   right: 5px;
