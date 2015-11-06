@@ -90,7 +90,9 @@
 .vjs-overlay.vjs-overlay-bottom-left1 
 {
   position: absolute;
-  bottom: 4.5em;
+  height: 25%;
+  width: 20%;
+  bottom: 11%;
   top: auto;
   left: 5px;
   cursor: pointer;
@@ -99,7 +101,9 @@
 .vjs-overlay.vjs-overlay-bottom-left2 
 {
   position: absolute;
-  bottom: 4.5em;
+  height: 25%;
+  width: 20%;
+  bottom: 11%;
   top: auto;
   left: 5px;
   cursor: pointer;
@@ -108,7 +112,9 @@
 .vjs-overlay.vjs-overlay-bottom-right1 
 {
   position: absolute;
-  bottom: 4.5em;
+  height: 25%;
+  width: 20%;
+  bottom: 11%;
   top: auto;
   left: auto;
   right: 5px;
@@ -118,7 +124,9 @@
 .vjs-overlay.vjs-overlay-bottom-right2 
 {
   position: absolute;
-  bottom: 4.5em;
+  height: 25%;
+  width: 20%;
+  bottom: 11%;
   top: auto;
   left: auto;
   right: 5px;
