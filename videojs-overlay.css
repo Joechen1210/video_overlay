@@ -1,15 +1,15 @@
 .vjs-overlay,
-.vjs-overlay.vjs-overlay-top 
+.vjs-overlay.vjs-overlay-top
 {
   position: absolute;
   height: 25%;
   width: 20%;
   left: 40%;
   bottom: 11%;
-  cursor: pointer
+  cursor: pointer;
 }
 
-.vjs-overlay.vjs-overlay-bottom 
+.vjs-overlay.vjs-overlay-bottom
 {
   position: fixed;;
   height: 25%;
@@ -21,14 +21,14 @@
   cursor: pointer;
 }
 
-.vjs-overlay.vjs-overlay-left 
+.vjs-overlay.vjs-overlay-left
 {
   top: 50%;
   margin-top: -15px;
   cursor: pointer;
 }
 
-.vjs-overlay.vjs-overlay-right 
+.vjs-overlay.vjs-overlay-right
 {
   left: auto;
   right: 5px;
