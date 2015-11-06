@@ -5,7 +5,8 @@
 /**
  * Some handy default styles for overlays.
  */
-.vjs-overlay,.vjs-overlay.vjs-overlay-top
+.vjs-overlay,
+.vjs-overlay.vjs-overlay-top
 {
   position: absolute;
   height: 25%;
