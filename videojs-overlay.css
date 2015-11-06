@@ -115,8 +115,7 @@
   height: 25%;
   width: 20%;
   bottom: 34px;
-  top: auto;
-  left: auto;
+  right: 1px;
   cursor: pointer;
 }
 
@@ -126,7 +125,7 @@
   height: 25%;
   width: 20%;
   bottom: 34px;
-  top: auto;
+  right: 1px;
   margin-right: 28%;
   cursor: pointer;
 }
