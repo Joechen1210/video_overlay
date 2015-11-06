@@ -1,25 +1,23 @@
 .vjs-overlay,
-.vjs-overlay.vjs-overlay-top
+.vjs-overlay.vjs-overlay-top 
 {
   position: absolute;
-  top: 0;
-  left: 0;
-  text-align: center;
-  cursor: pointer;
+  height: 25%;
+  width: 20%;
+  left: 40%;
+  bottom: 11%;
+  cursor: pointer
 }
 
-/* overlay alignment styles */
-.vjs-overlay.vjs-overlay-top-left1
+.vjs-overlay.vjs-overlay-bottom 
 {
-  margin-left: -16.5%;
+  position: fixed;;
+  height: 25%;
+  width: 20%;
+  margin-left: -22%;
   left: 50%;
-  cursor: pointer;
-}
-
-.vjs-overlay.vjs-overlay-top-right 
-{
-  left: auto;
-  right: 5px;
+  top: auto;
+  bottom: 10%;
   cursor: pointer;
 }
 
@@ -39,19 +37,35 @@
   cursor: pointer;
 }
 
-.vjs-overlay.vjs-overlay-bottom 
+.vjs-overlay.vjs-overlay-top-left1 
 {
-  position: fixed;;
-  height: 25%;
-  width: 20%;
-  margin-left: -22%;
+  margin-left: -16.5%;
   left: 50%;
-  top: auto;
-  bottom: 10%;
   cursor: pointer;
 }
 
-.vjs-overlay.vjs-overlay-bottom-left 
+.vjs-overlay.vjs-overlay-top-left2 
+{
+  margin-left: -16.5%;
+  left: 50%;
+  cursor: pointer;
+}
+
+.vjs-overlay.vjs-overlay-top-right1 
+{
+  left: auto;
+  right: 5px;
+  cursor: pointer;
+}
+
+.vjs-overlay.vjs-overlay-top-right2 
+{
+  left: auto;
+  right: 5px;
+  cursor: pointer;
+}
+
+.vjs-overlay.vjs-overlay-bottom-left1 
 {
   bottom: 4.5em;
   top: auto;
@@ -59,7 +73,15 @@
   cursor: pointer;
 }
 
-.vjs-overlay.vjs-overlay-bottom-right 
+.vjs-overlay.vjs-overlay-bottom-left2 
+{
+  bottom: 4.5em;
+  top: auto;
+  left: 5px;
+  cursor: pointer;
+}
+
+.vjs-overlay.vjs-overlay-bottom-right1 
 {
   bottom: 4.5em;
   top: auto;
@@ -67,6 +89,16 @@
   right: 5px;
   cursor: pointer;
 }
+
+.vjs-overlay.vjs-overlay-bottom-right2 
+{
+  bottom: 4.5em;
+  top: auto;
+  left: auto;
+  right: 5px;
+  cursor: pointer;
+}
+
 .vjs-overlay.vjs-overlay-center 
 {
  background: yellow;
