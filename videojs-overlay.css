@@ -48,6 +48,8 @@
 .vjs-overlay.vjs-overlay-top-left1 
 {
   position: absolute;
+  height: 25%;
+  width: 20%;
   margin-left: -16.5%;
   left: 50%;
   cursor: pointer;
