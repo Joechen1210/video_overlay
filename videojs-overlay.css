@@ -11,13 +11,12 @@
 
 .vjs-overlay.vjs-overlay-bottom
 {
-  position: fixed;;
   height: 25%;
   width: 20%;
   margin-left: -22%;
   left: 50%;
   top: auto;
-  bottom: 10%;
+  bottom: 11%;
   cursor: pointer;
 }
 
@@ -101,113 +100,110 @@
 
 .vjs-overlay.vjs-overlay-center 
 {
- background: yellow;
- margin: 15px;
- overflow: auto;
- cursor: pointer;
+  background: yellow;
+  margin: 15px;
+  overflow: auto;
+  cursor: pointer;
 }
 
 .vjs-overlay.closebtn
 {
-    float: right;
-    position: relative;
-    margin: 0px 10px 0px 0px;
-    max-width: 10px;
-    max-height: 10px;
-    cursor: pointer;
-    -webkit-appearance: none;
-    border: solid;
-    border-width: 1px;
-    border-color: white;
-    border-radius: 100%;
-    background-color: transparent;
-    font-size: 10px;
-    padding: 4px 5px 4px 5px;
-    color: white;
-    pointer-events: auto;
-    transition: .15s;
-    display: block;
-    text-align: center;
-    vertical-align: center;
-    z-index: 2;
+  float: right;
+  position: relative;
+  margin: 0px 10px 0px 0px;
+  max-width: 10px;
+  max-height: 10px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 100%;
+  background-color: transparent;
+  font-size: 10px;
+  padding: 4px 5px 4px 5px;
+  color: white;
+  pointer-events: auto;
+  transition: .15s;
+  display: block;
+  text-align: center;
+  vertical-align: center;
+  z-index: 2;
 }
 
 .vjs-overlay.closebtn:hover
 {
-   padding: 6px 7px 6px 7px;
-   transform: rotate(3.14159rad);
-   border-color: red;
-   color: red;
-   font-weight: bold;
-   border-width: 2px;
+  padding: 6px 7px 6px 7px;
+  transform: rotate(3.14159rad);
+  border-color: red;
+  color: red;
+  font-weight: bold;
+  border-width: 2px;
 }
 
 .vjs-overlay.div-main 
 {
-   clear: right;
-   margin: 0px 0px 0px 0px;
-   position: relative;
-   background-color: white;
-   box-sizing: border-box;
-   display: block;
-   border: 10px;
-   z-index: 1;
+  clear: right;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  background-color: white;
+  box-sizing: border-box;
+  display: block;
+  border: 10px;
+  z-index: 1;
 }
 
 .vjs-overlay.model-header 
 {
-   font-weight: normal;
-   box-sizing: border-box;
-   display: block;
-   width: 80%;
-   height: 50px;
-   padding-bottom: 10px;
-   padding-left: 15px;
-   padding-right: 15px;
-   padding-top: 15px;
+  font-weight: normal;
+  box-sizing: border-box;
+  display: block;
+  width: 80%;
+  height: 50px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
 }
-
 .vjs-overlay.model-body
 {
-    background-color: white;
-    box-sizing: border-box;
-    display: block;
-    overflow: auto;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    position: absolute;
-    width: 95%;
-    height: 350px;
+  background-color: white;
+  box-sizing: border-box;
+  display: block;
+  overflow: auto;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  position: absolute;
+  width: 95%;
+  height: 350px;
 }
-
 .vjs-overlay.model-footer 
 {
-    top: auto;
-    bottom: 0;
-    padding: 8px;
-    text-align: center;
-    box-sizing: border-box;
-    display: block;
-    border: 10px;
+  top: auto;
+  bottom: 0;
+  padding: 8px;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  border: 10px;
 }
-
 
 .vjs-overlay.div-parent
 {
-    border-radius: 2px;
-    width:60%;
-    max-width: 590px;
-    height: 75%;
-    max-height: 400px;
-    background-color: transparent;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    box-sizing: border-box;
+  border-radius: 2px;
+  width:60%;
+  max-width: 590px;
+  height: 75%;
+  max-height: 400px;
+  background-color: transparent;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
 }
