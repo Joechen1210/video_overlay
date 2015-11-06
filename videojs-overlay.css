@@ -1,5 +1,5 @@
 .vjs-overlay,
-.vjs-overlay.vjs-overlay-top-left1
+.vjs-overlay.vjs-overlay-top
 {
   position: absolute;
   top: 0;
@@ -9,7 +9,7 @@
 }
 
 /* overlay alignment styles */
-.vjs-overlay.vjs-overlay-top
+.vjs-overlay.vjs-overlay-top-left1
 {
   margin-left: -16.5%;
   left: 50%;
