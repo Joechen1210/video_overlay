@@ -36,6 +36,8 @@
 .vjs-overlay.vjs-overlay-right
 {
   position: absolute;
+  height: 25%;
+  width: 20%;
   left: auto;
   right: 0;
   top: 36%;
