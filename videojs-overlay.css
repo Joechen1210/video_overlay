@@ -6,9 +6,19 @@
  * Some handy default styles for overlays.
  */
 .vjs-overlay,
+.vjs-overlay.vjs-overlay-top-left1
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* overlay alignment styles */
 .vjs-overlay.vjs-overlay-top
 {
-  position: absolute;
+  position: fixed;
   height: 25%;
   width: 20%;
   left: 40%;
@@ -56,30 +66,6 @@
   bottom: 11%;
   cursor: pointer;
 }
-
-.vjs-overlay.vjs-overlay-top-left1
-{
-  position: absolute;
-  height: 25%;
-  width: 20%;
-  left: 1px;
-  right: auto;
-  margin-top: 1px;
-  cursor: pointer;
-}
-
-.vjs-overlay.vjs-overlay-top-left2
-{
-  position: absolute;
-  height: 25%;
-  width: 20%;
-  left: 1px;
-  right: auto;
-  margin-top: 1px;
-  cursor: pointer;
-}
-
-/* overlay alignment styles */
 
 .vjs-overlay.vjs-overlay-bottom-left 
 {
