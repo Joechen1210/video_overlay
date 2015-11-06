@@ -48,7 +48,7 @@
 .vjs-overlay.vjs-overlay-top-left1 
 {
   position: absolute;
-  height: 25%;
+  height: 15%;
   width: 20%;
   margin-left: 1px;
   margin-top: 1px;
@@ -58,7 +58,7 @@
 .vjs-overlay.vjs-overlay-top-left2 
 {
   position: absolute;
-  height: 25%;
+  height: 15%;
   width: 20%;
   margin-left: 28%;
   margin-top: 1px;
