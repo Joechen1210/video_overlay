@@ -104,8 +104,8 @@
   height: 25%;
   width: 20%;
   bottom: 34px;
+  margin-left: 28%;
   top: auto;
-  left: 5px;
   cursor: pointer;
 }
 
@@ -117,7 +117,6 @@
   bottom: 34px;
   top: auto;
   left: auto;
-  right: 5px;
   cursor: pointer;
 }
 
@@ -128,8 +127,7 @@
   width: 20%;
   bottom: 34px;
   top: auto;
-  left: auto;
-  right: 5px;
+  margin-right: 28%;
   cursor: pointer;
 }
 
