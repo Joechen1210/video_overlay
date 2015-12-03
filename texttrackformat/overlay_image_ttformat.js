@@ -33,9 +33,9 @@
   init = function(options) {
     var settings = videojs.util.mergeOptions(defaults, options),
         player = this,
-        events = {},
-        startTimes = [],
-        endTimes = [],
+        //events = {},
+        //startTimes = [],
+        //endTimes = [],
         
         player.catalog.getvideo(player.options()['data-video-id'], function(error, video){
         console.log(video);
@@ -46,7 +46,6 @@
           console.log(trackIndex);
         });
            });
-    }
   };
   // register the plugin
   videojs.plugin('overlay', init);
