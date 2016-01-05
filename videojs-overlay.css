@@ -161,7 +161,7 @@
 
 .vjs-overlay.closebtn:hover
 {
-   margin: 12px 12px 12px 12px;
+   margin: 12px 7px 12px 7px;
   transform: rotate(3.14159rad);
   border-color: red;
   color: red;
