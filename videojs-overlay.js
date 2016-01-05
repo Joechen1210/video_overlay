@@ -96,6 +96,19 @@
       var ishidden = false;
      el.onclick = function()
      {
+        if (document.getElementById("divparent")) 
+          {
+              var changecontent = document.getElementById("divbody");
+               if (typeof webcontent === 'string') {
+                   changecontent.innerHTML = webcontent;
+                   //bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
+                     } 
+                else {
+                    changecontent.appendChild(webcontent);
+                     }
+              ishidden = true;
+              player.pause();
+           }
       if (ishidden) 
           {
               player.el().removeChild(parentdiv);
