@@ -195,7 +195,7 @@
 }
 .vjs-overlay.model-body
 {
-  background-color: white;
+  background-color: transparent;
   box-sizing: border-box;
   display: block;
   overflow: auto;
