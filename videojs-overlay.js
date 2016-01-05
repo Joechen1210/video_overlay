@@ -106,10 +106,10 @@
                 else {
                     changecontent.appendChild(webcontent);
                      }
-              ishidden = true;
+              ishidden = false;
               player.pause();
            }
-      if (ishidden) 
+    else if (ishidden) 
           {
               player.el().removeChild(parentdiv);
               ishidden = false;
