@@ -142,7 +142,7 @@
 {
   float: right;
   position: relative;
-  margin: 10px 10px 10px 10px;
+  margin: 7px 7px 7px 7px;
   cursor: pointer;
   -webkit-appearance: none;
   border: solid;
@@ -161,6 +161,7 @@
 
 .vjs-overlay.closebtn:hover
 {
+   margin: 12px 12px 12px 12px;
   transform: rotate(3.14159rad);
   border-color: red;
   color: red;
