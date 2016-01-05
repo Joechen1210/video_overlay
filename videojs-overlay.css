@@ -140,7 +140,7 @@
 
 .vjs-overlay.closebtn
 {
-   float: right;
+    float: right;
     position: relative;
     margin: 7px 0px 7px 7px;
     cursor: pointer;
