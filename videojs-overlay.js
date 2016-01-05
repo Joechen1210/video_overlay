@@ -96,18 +96,17 @@
       var ishidden = false;
      el.onclick = function()
      {
-       if(document.getElementById("divbody"))
+       if (document.getElementById("divbody"))
                {
                 player.el().removeChild(parentdiv);
                }
-      if(ishidden) 
+      if (ishidden) 
                {
                    player.el().removeChild(parentdiv);
                    ishidden = false;
                    player.play();
                }
-      else
-               {   
+      else {   
                      player.el().appendChild(parentdiv);
                      ishidden = true;
                      player.pause();
