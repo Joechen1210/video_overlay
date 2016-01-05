@@ -96,22 +96,17 @@
       var ishidden = false;
      el.onclick = function()
      {
-       if (document.getElementById("divbody"))
-               {
-                player.el().removeChild(parentdiv);
-               }
       if (ishidden) 
-               {
-                   player.el().removeChild(parentdiv);
-                   ishidden = false;
-                   player.play();
-               }
+          {
+              player.el().removeChild(parentdiv);
+              ishidden = false;
+              player.play();
+           }
       else {   
-                     player.el().appendChild(parentdiv);
-                     ishidden = true;
-                     player.pause();
-               }
-          
+              player.el().appendChild(parentdiv);
+              ishidden = true;
+              player.pause();
+           }
      }
         closebtn.onmouseup = function()
       {
