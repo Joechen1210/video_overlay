@@ -111,7 +111,7 @@
                      ishidden = true;
                      player.pause();
                }
-          }
+          
      }
         closebtn.onmouseup = function()
       {
