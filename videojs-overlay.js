@@ -86,7 +86,7 @@
           closebtn.className = 'vjs-overlay';
           closebtn.className += ' closebtn';
           closebtn.id = 'btnclose';
-      var closetext = document.createTextNode('X');
+      var closetext = document.createTextNode('x');
       closebtn.appendChild(closetext);
       
         parentdiv.appendChild(closebtn);
