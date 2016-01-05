@@ -104,7 +104,6 @@
        }
        else
        {   
-           player.el().removeChild(parentdiv);
            player.el().appendChild(parentdiv);
            ishidden = true;
            player.pause();
