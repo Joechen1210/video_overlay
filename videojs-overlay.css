@@ -140,28 +140,28 @@
 
 .vjs-overlay.closebtn
 {
-  float: right;
-  position: relative;
-  margin: 7px 7px 7px 7px;
-  cursor: pointer;
-  -webkit-appearance: none;
-  border: solid;
-  border-width: 1px;
-  border-color: white;
-  border-radius: 100%;
-  background-color: transparent;
-  font-size: 10px;
-  color: white;
-  pointer-events: auto;
-  transition: .15s;
-  display: block;
-  text-align: center;
-  z-index: 2;
+   float: right;
+    position: relative;
+    margin: 7px 0px 7px 7px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 100%;
+    background-color: transparent;
+    font-size: 10px;
+    color: white;
+    pointer-events: auto;
+    transition: .15s;
+    display: block;
+    text-align: center;
+    z-index: 2;
 }
 
 .vjs-overlay.closebtn:hover
 {
-   margin: 12px 7px 12px 7px;
+  margin: 12px 5px 12px 12px;
   transform: rotate(3.14159rad);
   border-color: red;
   color: red;
