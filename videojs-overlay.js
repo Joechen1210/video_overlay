@@ -87,7 +87,6 @@
           closebtn.className += ' closebtn';
           closebtn.id = 'btnclose';
       var closetext = document.createTextNode('x');
-         closetext.setAttribute('style','text-align :center;');
       closebtn.appendChild(closetext);
       
         parentdiv.appendChild(closebtn);
