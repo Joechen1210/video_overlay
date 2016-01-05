@@ -96,36 +96,19 @@
       var ishidden = false;
      el.onclick = function()
      {
-       if(ishidden) 
-       {
-           player.el().removeChild(parentdiv);
-           ishidden = false;
-           player.play();
-       }
-       else
-       {   
-           if(document.getElementById("divbody"))
-           {
-             console.log("getdivbody")
-             var contentbody = document.getElementById("divbody");
-            if (typeof webcontent === 'string') {
-               contentbody.innerHTML = webcontent;
-               //bodydiv.innerHTML = "<iframe src='http://htmlpreview.github.io/?https://raw.githubusercontent.com/Joechen1210/video_overlay/master/index.html' frameborder='0' border='0' cellspacing='0' style='border-style: none' align='left'></iframe>";
-                 } 
-            else {
-                contentbody.appendChild(webcontent);
-                 }
-            console.log("adddivbodycontent")
-           }
-           else
-           {
-             player.el().appendChild(parentdiv);
-             ishidden = true;
-             player.pause();
-           }
-       }
+         if(ishidden) 
+         {
+             player.el().removeChild(parentdiv);
+             ishidden = false;
+             player.play();
+         }
+         else
+         {   
+               player.el().appendChild(parentdiv);
+               ishidden = true;
+               player.pause();
+         }
      }
-     
         closebtn.onmouseup = function()
       {
            player.el().removeChild(parentdiv);
