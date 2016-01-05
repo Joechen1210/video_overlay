@@ -100,14 +100,13 @@
                {
                 player.el().removeChild(parentdiv);
                }
-      else{
-               if(ishidden) 
+      if(ishidden) 
                {
                    player.el().removeChild(parentdiv);
                    ishidden = false;
                    player.play();
                }
-               else
+      else
                {   
                      player.el().appendChild(parentdiv);
                      ishidden = true;
