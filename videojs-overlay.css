@@ -220,18 +220,18 @@
 
 .vjs-overlay.div-parent
 {
-  border-radius: 2px;
-  width:60%;
-  max-width: 590px;
-  height: 75%;
-  max-height: 400px;
-  background-color: transparent;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  box-sizing: border-box;
+    border-radius: 2px;
+    /* width: auto; */
+    max-width: 420px;
+    height: 75%;
+    max-height: 400px;
+    background-color: transparent;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    box-sizing: border-box;
 }
