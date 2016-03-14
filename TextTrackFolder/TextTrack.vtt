@@ -15,7 +15,7 @@ WEBVTT
          "align":"left"
       }
    ],
-   "thumbail":[
+   "thumbnail":[
       {
          "imageurl":"test3"
       },
@@ -52,14 +52,14 @@ WEBVTT
          "align":"left"
       }
    ],
-   "thumbail":{
-      "1":{
+   "thumbnail":[
+      {
          "imageurl":"test11"
       },
-      "2":{
+      {
          "imageurl":"test12"
       }
-   }
+   ]
 }
 
 4
