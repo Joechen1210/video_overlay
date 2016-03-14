@@ -15,14 +15,14 @@ WEBVTT
          "align":"left"
       }
    ],
-   "thumbail":{
-      "1":{
+   "thumbail":[
+      {
          "imageurl":"test3"
       },
-      "2":{
+      {
          "imageurl":"test4"
       }
-   }
+   ]
 }
 
 2
