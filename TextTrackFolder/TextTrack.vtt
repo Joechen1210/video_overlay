@@ -1,0 +1,75 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.250
+{
+   "overlays":[
+      {
+         "imagecontent":"imagetest1",
+         "webcontent":"contenttest1",
+         "align":"right"
+      },
+      {
+         "imagecontent":"imagetest2",
+         "webcontent":"contenttest2",
+         "align":"left"
+      }
+   ],
+   "thumbail":{
+      "1":{
+         "imageurl":"test3"
+      },
+      "2":{
+         "imageurl":"test4"
+      }
+   }
+}
+
+2
+00:00:05.250 --> 00:00:10.500
+{
+  "overlays": [
+    {
+      "imagecontent": "imagetest5",
+      "webcontent": "contenttest6",
+      "align": "bottom"
+    }
+	]
+}
+
+3
+00:00:10.500 --> 00:00:15.750
+{
+   "overlays":[
+      {
+         "imagecontent":"imagetest7",
+         "webcontent":"contenttest8",
+         "align":"right"
+      },
+      {
+         "imagecontent":"imagetest9",
+         "webcontent":"contenttest10",
+         "align":"left"
+      }
+   ],
+   "thumbail":{
+      "1":{
+         "imageurl":"test11"
+      },
+      "2":{
+         "imageurl":"test12"
+      }
+   }
+}
+
+4
+00:00:15.750 --> 00:00:21.250
+{
+  "overlays": [
+    {
+      "imagecontent": "imagetest13",
+      "webcontent": "contenttest14",
+      "align": "left"
+    }
+	]
+}
